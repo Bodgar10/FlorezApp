@@ -23,6 +23,8 @@
 		87E384C12B5DED480096E037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C12B54AC330056AB6A /* Main.storyboard */; };
 		87E384CC2B5DEE410096E037 /* DemoUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */; };
 		87E384CD2B5DEE410096E037 /* DemoUITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */; };
+		87E384CE2B5DF0530096E037 /* DemoUITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */; };
+		87E384CF2B5DF0530096E037 /* DemoUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -205,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E384CE2B5DF0530096E037 /* DemoUITableViewController.xib in Resources */,
 				87E384BF2B5DED480096E037 /* LaunchScreen.storyboard in Resources */,
 				87E384C02B5DED480096E037 /* Assets.xcassets in Resources */,
 				87E384C12B5DED480096E037 /* Main.storyboard in Resources */,
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E384CF2B5DF0530096E037 /* DemoUITableViewController.swift in Sources */,
 				87E384B92B5DED480096E037 /* ViewController.swift in Sources */,
 				87E384BA2B5DED480096E037 /* FlorezApp.xcdatamodeld in Sources */,
 				87E384BB2B5DED480096E037 /* AppDelegate.swift in Sources */,
@@ -387,10 +391,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q5893ZTFCF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FlorezApp/Info.plist;
+				INFOPLIST_FILE = FlorezApp/Sources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -417,10 +421,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q5893ZTFCF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FlorezApp/Info.plist;
+				INFOPLIST_FILE = FlorezApp/Sources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -447,10 +451,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q5893ZTFCF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "FlorezApp copy-Info.plist";
+				INFOPLIST_FILE = FlorezApp/Sources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -477,10 +481,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q5893ZTFCF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "FlorezApp copy-Info.plist";
+				INFOPLIST_FILE = FlorezApp/Sources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;

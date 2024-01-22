@@ -12,6 +12,7 @@ class DemoUITableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = .blue
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
