@@ -14,6 +14,15 @@
 		8783A1C62B54AC330056AB6A /* FlorezApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1C42B54AC330056AB6A /* FlorezApp.xcdatamodeld */; };
 		8783A1C82B54AC340056AB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C72B54AC340056AB6A /* Assets.xcassets */; };
 		8783A1CB2B54AC340056AB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C92B54AC340056AB6A /* LaunchScreen.storyboard */; };
+		87E384B92B5DED480096E037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BF2B54AC330056AB6A /* ViewController.swift */; };
+		87E384BA2B5DED480096E037 /* FlorezApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1C42B54AC330056AB6A /* FlorezApp.xcdatamodeld */; };
+		87E384BB2B5DED480096E037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BB2B54AC330056AB6A /* AppDelegate.swift */; };
+		87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */; };
+		87E384BF2B5DED480096E037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C92B54AC340056AB6A /* LaunchScreen.storyboard */; };
+		87E384C02B5DED480096E037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C72B54AC340056AB6A /* Assets.xcassets */; };
+		87E384C12B5DED480096E037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C12B54AC330056AB6A /* Main.storyboard */; };
+		87E384CC2B5DEE410096E037 /* DemoUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */; };
+		87E384CD2B5DEE410096E037 /* DemoUITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +35,21 @@
 		8783A1C72B54AC340056AB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8783A1CA2B54AC340056AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8783A1CC2B54AC340056AB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E384C52B5DED480096E037 /* Demo UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E384C62B5DED480096E037 /* FlorezApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FlorezApp copy-Info.plist"; path = "/Users/bodgarespinosamiranda/Documents/CURSOS_GRUPOS/Domingos/AppFlorez/FlorezApp/FlorezApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITableViewController.swift; sourceTree = "<group>"; };
+		87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoUITableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8783A1B52B54AC330056AB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E384BD2B5DED480096E037 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +64,7 @@
 			children = (
 				8783A1BA2B54AC330056AB6A /* FlorezApp */,
 				8783A1B92B54AC330056AB6A /* Products */,
+				87E384C62B5DED480096E037 /* FlorezApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,11 +72,31 @@
 			isa = PBXGroup;
 			children = (
 				8783A1B82B54AC330056AB6A /* FlorezApp.app */,
+				87E384C52B5DED480096E037 /* Demo UI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 		8783A1BA2B54AC330056AB6A /* FlorezApp */ = {
+			isa = PBXGroup;
+			children = (
+				87E384C92B5DEE230096E037 /* UIComponents */,
+				87E384C82B5DEE100096E037 /* Sources */,
+				87E384C72B5DEE0B0096E037 /* AppUIDemo */,
+			);
+			path = FlorezApp;
+			sourceTree = "<group>";
+		};
+		87E384C72B5DEE0B0096E037 /* AppUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */,
+				87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */,
+			);
+			path = AppUIDemo;
+			sourceTree = "<group>";
+		};
+		87E384C82B5DEE100096E037 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				8783A1BB2B54AC330056AB6A /* AppDelegate.swift */,
@@ -67,7 +108,14 @@
 				8783A1CC2B54AC340056AB6A /* Info.plist */,
 				8783A1C42B54AC330056AB6A /* FlorezApp.xcdatamodeld */,
 			);
-			path = FlorezApp;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		87E384C92B5DEE230096E037 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +136,23 @@
 			name = FlorezApp;
 			productName = FlorezApp;
 			productReference = 8783A1B82B54AC330056AB6A /* FlorezApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87E384B72B5DED480096E037 /* Demo UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E384C22B5DED480096E037 /* Build configuration list for PBXNativeTarget "Demo UI" */;
+			buildPhases = (
+				87E384B82B5DED480096E037 /* Sources */,
+				87E384BD2B5DED480096E037 /* Frameworks */,
+				87E384BE2B5DED480096E037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo UI";
+			productName = FlorezApp;
+			productReference = 87E384C52B5DED480096E037 /* Demo UI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				8783A1B72B54AC330056AB6A /* FlorezApp */,
+				87E384B72B5DED480096E037 /* Demo UI */,
 			);
 		};
 /* End PBXProject section */
@@ -128,9 +194,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E384CD2B5DEE410096E037 /* DemoUITableViewController.xib in Resources */,
 				8783A1CB2B54AC340056AB6A /* LaunchScreen.storyboard in Resources */,
 				8783A1C82B54AC340056AB6A /* Assets.xcassets in Resources */,
 				8783A1C32B54AC330056AB6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E384BE2B5DED480096E037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E384BF2B5DED480096E037 /* LaunchScreen.storyboard in Resources */,
+				87E384C02B5DED480096E037 /* Assets.xcassets in Resources */,
+				87E384C12B5DED480096E037 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +218,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E384CC2B5DEE410096E037 /* DemoUITableViewController.swift in Sources */,
 				8783A1C02B54AC330056AB6A /* ViewController.swift in Sources */,
 				8783A1C62B54AC330056AB6A /* FlorezApp.xcdatamodeld in Sources */,
 				8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */,
 				8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E384B82B5DED480096E037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E384B92B5DED480096E037 /* ViewController.swift in Sources */,
+				87E384BA2B5DED480096E037 /* FlorezApp.xcdatamodeld in Sources */,
+				87E384BB2B5DED480096E037 /* AppDelegate.swift in Sources */,
+				87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +399,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DFLOREZ";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BodgarDev.FlorezApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -339,6 +429,67 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DFLOREZ";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BodgarDev.FlorezApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87E384C32B5DED480096E037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5893ZTFCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FlorezApp copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDEMOUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BodgarDev.FlorezApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87E384C42B5DED480096E037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5893ZTFCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FlorezApp copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDEMOUI";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BodgarDev.FlorezApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -364,6 +515,15 @@
 			buildConfigurations = (
 				8783A1D02B54AC340056AB6A /* Debug */,
 				8783A1D12B54AC340056AB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E384C22B5DED480096E037 /* Build configuration list for PBXNativeTarget "Demo UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E384C32B5DED480096E037 /* Debug */,
+				87E384C42B5DED480096E037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
