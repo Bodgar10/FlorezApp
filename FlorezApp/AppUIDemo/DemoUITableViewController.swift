@@ -47,6 +47,17 @@ enum DemoView {
             return "HomeScreenViewController"
         }
     }
+    
+    var viewController: UIViewController {
+        switch self {
+        case .buttons:
+            return ViewController()
+        case .labels:
+            return ViewController()
+        case .homeScreenViewController:
+            return ViewController()
+        }
+    }
 }
 
 class DemoUITableViewController: UITableViewController {
@@ -100,4 +111,8 @@ class DemoUITableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let viewController = demoViews[indexPath.section].views[indexPath.row].viewController
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 }
