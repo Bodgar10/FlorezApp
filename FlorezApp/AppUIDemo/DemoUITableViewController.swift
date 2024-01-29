@@ -55,7 +55,7 @@ enum DemoView {
         case .labels:
             return ViewController()
         case .homeScreenViewController:
-            return ViewController()
+            return HomeScreenViewController()
         }
     }
 }
