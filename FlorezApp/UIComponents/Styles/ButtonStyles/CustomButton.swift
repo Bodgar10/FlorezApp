@@ -9,23 +9,45 @@ import UIKit
 
 class CustomButton: UIButton {
 
-    @IBInspectable var cornerRadius : CGFloat = 0 {
+    enum ButtonStyle: Int {
+        case primary = 0
+        case secondary = 1
+    }
+    
+    @IBInspectable var style : Int = 0 {
         didSet {
-            layer.cornerRadius = cornerRadius
-            layer.masksToBounds = (cornerRadius > 0)
+            let buttonStyle = ButtonStyle(rawValue: style) ?? .primary
+            set(buttonStyle)
         }
     }
     
-    @IBInspectable var borderWidth : CGFloat = 0 {
-        didSet {
-            layer.borderWidth = borderWidth
+    private func set(_ buttonStyle: ButtonStyle) {
+        switch buttonStyle {
+        case .primary:
+            configurePrimaryButton()
+        case .secondary:
+            configureSecondaryButton()
         }
     }
     
-    @IBInspectable var borderColor : UIColor? {
-        didSet {
-            layer.borderColor = borderColor?.cgColor
-        }
+    private func configurePrimaryButton() {
+        backgroundColor = UIColor.dsPrimary
+        titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
+        layer.cornerRadius = 5
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowOffset = CGSize(width: 0, height: 2)
+        layer.shadowOpacity = 0.5
+        layer.shadowRadius = 4
     }
 
+    private func configureSecondaryButton() {
+        backgroundColor = .clear
+        let yourAttributes: [NSAttributedString.Key: Any] = [
+            .font: UIFont.systemFont(ofSize: 18),
+            .foregroundColor: UIColor.dsPrimary,
+            .underlineStyle: NSUnderlineStyle.single.rawValue
+        ]
+        let attibuteString = NSMutableAttributedString(string: titleLabel?.text ?? "", attributes: yourAttributes)
+        setAttributedTitle(attibuteString, for: .normal)
+    }
 }

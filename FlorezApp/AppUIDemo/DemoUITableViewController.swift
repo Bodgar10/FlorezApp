@@ -51,7 +51,7 @@ enum DemoView {
     var viewController: UIViewController {
         switch self {
         case .buttons:
-            return ViewController()
+            return DemoButtonsTableViewController()
         case .labels:
             return ViewController()
         case .homeScreenViewController:

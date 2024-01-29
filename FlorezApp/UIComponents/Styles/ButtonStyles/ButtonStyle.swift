@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum ButtonStyle {
+/*enum ButtonStyle {
     
     case primary
     case secondary
@@ -40,3 +40,4 @@ enum ButtonStyle {
     }
     
 }
+*/
