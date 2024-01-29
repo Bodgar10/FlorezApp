@@ -14,6 +14,55 @@
 		8783A1C62B54AC330056AB6A /* FlorezApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1C42B54AC330056AB6A /* FlorezApp.xcdatamodeld */; };
 		8783A1C82B54AC340056AB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C72B54AC340056AB6A /* Assets.xcassets */; };
 		8783A1CB2B54AC340056AB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C92B54AC340056AB6A /* LaunchScreen.storyboard */; };
+		87D65D6F2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D6D2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift */; };
+		87D65D702B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D6D2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift */; };
+		87D65D712B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D6E2B67292C0056FA28 /* SecondaryButtonTableViewCell.xib */; };
+		87D65D722B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D6E2B67292C0056FA28 /* SecondaryButtonTableViewCell.xib */; };
+		87D65D772B672C560056FA28 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D752B672C560056FA28 /* HomeScreenViewController.swift */; };
+		87D65D782B672C560056FA28 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D752B672C560056FA28 /* HomeScreenViewController.swift */; };
+		87D65D792B672C560056FA28 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D762B672C560056FA28 /* HomeScreenViewController.xib */; };
+		87D65D7A2B672C560056FA28 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D762B672C560056FA28 /* HomeScreenViewController.xib */; };
+		87D65D7D2B6733A80056FA28 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D7C2B6733A80056FA28 /* CustomLabel.swift */; };
+		87D65D7E2B6733A80056FA28 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D7C2B6733A80056FA28 /* CustomLabel.swift */; };
+		87D65D822B67357E0056FA28 /* LabelsDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D802B67357E0056FA28 /* LabelsDemoTableViewController.swift */; };
+		87D65D832B67357E0056FA28 /* LabelsDemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D802B67357E0056FA28 /* LabelsDemoTableViewController.swift */; };
+		87D65D842B67357E0056FA28 /* LabelsDemoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D812B67357E0056FA28 /* LabelsDemoTableViewController.xib */; };
+		87D65D852B67357E0056FA28 /* LabelsDemoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D812B67357E0056FA28 /* LabelsDemoTableViewController.xib */; };
+		87D65D882B6735BD0056FA28 /* TitleLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D862B6735BD0056FA28 /* TitleLabelTableViewCell.swift */; };
+		87D65D892B6735BD0056FA28 /* TitleLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D862B6735BD0056FA28 /* TitleLabelTableViewCell.swift */; };
+		87D65D8A2B6735BD0056FA28 /* TitleLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D872B6735BD0056FA28 /* TitleLabelTableViewCell.xib */; };
+		87D65D8B2B6735BD0056FA28 /* TitleLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D872B6735BD0056FA28 /* TitleLabelTableViewCell.xib */; };
+		87D65D8E2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D8C2B6736050056FA28 /* BodyLabelTableViewCell.swift */; };
+		87D65D8F2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D8C2B6736050056FA28 /* BodyLabelTableViewCell.swift */; };
+		87D65D902B6736050056FA28 /* BodyLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D8D2B6736050056FA28 /* BodyLabelTableViewCell.xib */; };
+		87D65D912B6736050056FA28 /* BodyLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D8D2B6736050056FA28 /* BodyLabelTableViewCell.xib */; };
+		87D65D942B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D922B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift */; };
+		87D65D952B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D922B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift */; };
+		87D65D962B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D932B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.xib */; };
+		87D65D972B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D932B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.xib */; };
+		87E384B92B5DED480096E037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BF2B54AC330056AB6A /* ViewController.swift */; };
+		87E384BA2B5DED480096E037 /* FlorezApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1C42B54AC330056AB6A /* FlorezApp.xcdatamodeld */; };
+		87E384BB2B5DED480096E037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BB2B54AC330056AB6A /* AppDelegate.swift */; };
+		87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */; };
+		87E384BF2B5DED480096E037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C92B54AC340056AB6A /* LaunchScreen.storyboard */; };
+		87E384C02B5DED480096E037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C72B54AC340056AB6A /* Assets.xcassets */; };
+		87E384C12B5DED480096E037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8783A1C12B54AC330056AB6A /* Main.storyboard */; };
+		87E384CC2B5DEE410096E037 /* DemoUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */; };
+		87E384CD2B5DEE410096E037 /* DemoUITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */; };
+		87E384CE2B5DF0530096E037 /* DemoUITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */; };
+		87E384CF2B5DF0530096E037 /* DemoUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */; };
+		87E384D32B5DF8960096E037 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E384D22B5DF8960096E037 /* Colors.xcassets */; };
+		87E384D72B5DFA9F0096E037 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384D62B5DFA9F0096E037 /* CustomButton.swift */; };
+		87E384E42B5DFD160096E037 /* DemoButtonsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384E22B5DFD160096E037 /* DemoButtonsTableViewController.xib */; };
+		87E384E72B5DFD310096E037 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384E52B5DFD310096E037 /* ButtonTableViewCell.swift */; };
+		87E384E82B5DFD310096E037 /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384E62B5DFD310096E037 /* ButtonTableViewCell.xib */; };
+		87E384E92B5DFDE40096E037 /* DemoButtonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384E12B5DFD160096E037 /* DemoButtonsTableViewController.swift */; };
+		87E384EA2B5DFDEB0096E037 /* DemoButtonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384E12B5DFD160096E037 /* DemoButtonsTableViewController.swift */; };
+		87E384EB2B5DFDED0096E037 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384E52B5DFD310096E037 /* ButtonTableViewCell.swift */; };
+		87E384EE2B5DFE080096E037 /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384E62B5DFD310096E037 /* ButtonTableViewCell.xib */; };
+		87E384EF2B5DFE080096E037 /* DemoButtonsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384E22B5DFD160096E037 /* DemoButtonsTableViewController.xib */; };
+		87E384F12B5DFE140096E037 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384D62B5DFA9F0096E037 /* CustomButton.swift */; };
+		87E384F22B5DFE1B0096E037 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E384D22B5DF8960096E037 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +75,40 @@
 		8783A1C72B54AC340056AB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8783A1CA2B54AC340056AB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8783A1CC2B54AC340056AB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87D65D6D2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonTableViewCell.swift; sourceTree = "<group>"; };
+		87D65D6E2B67292C0056FA28 /* SecondaryButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondaryButtonTableViewCell.xib; sourceTree = "<group>"; };
+		87D65D752B672C560056FA28 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		87D65D762B672C560056FA28 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		87D65D7C2B6733A80056FA28 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		87D65D802B67357E0056FA28 /* LabelsDemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsDemoTableViewController.swift; sourceTree = "<group>"; };
+		87D65D812B67357E0056FA28 /* LabelsDemoTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelsDemoTableViewController.xib; sourceTree = "<group>"; };
+		87D65D862B6735BD0056FA28 /* TitleLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabelTableViewCell.swift; sourceTree = "<group>"; };
+		87D65D872B6735BD0056FA28 /* TitleLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleLabelTableViewCell.xib; sourceTree = "<group>"; };
+		87D65D8C2B6736050056FA28 /* BodyLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabelTableViewCell.swift; sourceTree = "<group>"; };
+		87D65D8D2B6736050056FA28 /* BodyLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyLabelTableViewCell.xib; sourceTree = "<group>"; };
+		87D65D922B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldDescriptionLabelTableViewCell.swift; sourceTree = "<group>"; };
+		87D65D932B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoldDescriptionLabelTableViewCell.xib; sourceTree = "<group>"; };
+		87E384C52B5DED480096E037 /* Demo UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E384C62B5DED480096E037 /* FlorezApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FlorezApp copy-Info.plist"; path = "/Users/bodgarespinosamiranda/Documents/CURSOS_GRUPOS/Domingos/AppFlorez/FlorezApp/FlorezApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITableViewController.swift; sourceTree = "<group>"; };
+		87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoUITableViewController.xib; sourceTree = "<group>"; };
+		87E384D22B5DF8960096E037 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		87E384D62B5DFA9F0096E037 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		87E384E12B5DFD160096E037 /* DemoButtonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoButtonsTableViewController.swift; sourceTree = "<group>"; };
+		87E384E22B5DFD160096E037 /* DemoButtonsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoButtonsTableViewController.xib; sourceTree = "<group>"; };
+		87E384E52B5DFD310096E037 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		87E384E62B5DFD310096E037 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8783A1B52B54AC330056AB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E384BD2B5DED480096E037 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +123,7 @@
 			children = (
 				8783A1BA2B54AC330056AB6A /* FlorezApp */,
 				8783A1B92B54AC330056AB6A /* Products */,
+				87E384C62B5DED480096E037 /* FlorezApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				8783A1B82B54AC330056AB6A /* FlorezApp.app */,
+				87E384C52B5DED480096E037 /* Demo UI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +139,68 @@
 		8783A1BA2B54AC330056AB6A /* FlorezApp */ = {
 			isa = PBXGroup;
 			children = (
+				87E384C92B5DEE230096E037 /* UIComponents */,
+				87E384C82B5DEE100096E037 /* Sources */,
+				87E384C72B5DEE0B0096E037 /* AppUIDemo */,
+			);
+			path = FlorezApp;
+			sourceTree = "<group>";
+		};
+		87D65D732B672C330056FA28 /* LogInFeature */ = {
+			isa = PBXGroup;
+			children = (
+				87D65D742B672C420056FA28 /* Home */,
+			);
+			path = LogInFeature;
+			sourceTree = "<group>";
+		};
+		87D65D742B672C420056FA28 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				87D65D752B672C560056FA28 /* HomeScreenViewController.swift */,
+				87D65D762B672C560056FA28 /* HomeScreenViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		87D65D7B2B6733850056FA28 /* LabelStyles */ = {
+			isa = PBXGroup;
+			children = (
+				87D65D7C2B6733A80056FA28 /* CustomLabel.swift */,
+			);
+			path = LabelStyles;
+			sourceTree = "<group>";
+		};
+		87D65D7F2B6735700056FA28 /* LabelsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				87D65D802B67357E0056FA28 /* LabelsDemoTableViewController.swift */,
+				87D65D812B67357E0056FA28 /* LabelsDemoTableViewController.xib */,
+				87D65D862B6735BD0056FA28 /* TitleLabelTableViewCell.swift */,
+				87D65D872B6735BD0056FA28 /* TitleLabelTableViewCell.xib */,
+				87D65D8C2B6736050056FA28 /* BodyLabelTableViewCell.swift */,
+				87D65D8D2B6736050056FA28 /* BodyLabelTableViewCell.xib */,
+				87D65D922B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift */,
+				87D65D932B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.xib */,
+			);
+			path = LabelsDemo;
+			sourceTree = "<group>";
+		};
+		87E384C72B5DEE0B0096E037 /* AppUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				87D65D7F2B6735700056FA28 /* LabelsDemo */,
+				87E384E02B5DFD060096E037 /* ButtonsDemo */,
+				87E384CA2B5DEE410096E037 /* DemoUITableViewController.swift */,
+				87E384CB2B5DEE410096E037 /* DemoUITableViewController.xib */,
+			);
+			path = AppUIDemo;
+			sourceTree = "<group>";
+		};
+		87E384C82B5DEE100096E037 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				87D65D732B672C330056FA28 /* LogInFeature */,
 				8783A1BB2B54AC330056AB6A /* AppDelegate.swift */,
 				8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */,
 				8783A1BF2B54AC330056AB6A /* ViewController.swift */,
@@ -66,8 +209,47 @@
 				8783A1C92B54AC340056AB6A /* LaunchScreen.storyboard */,
 				8783A1CC2B54AC340056AB6A /* Info.plist */,
 				8783A1C42B54AC330056AB6A /* FlorezApp.xcdatamodeld */,
+				87E384D22B5DF8960096E037 /* Colors.xcassets */,
 			);
-			path = FlorezApp;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		87E384C92B5DEE230096E037 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				87E384D42B5DFA600096E037 /* Styles */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		87E384D42B5DFA600096E037 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				87D65D7B2B6733850056FA28 /* LabelStyles */,
+				87E384D82B5DFBED0096E037 /* ButtonStyles */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		87E384D82B5DFBED0096E037 /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				87E384D62B5DFA9F0096E037 /* CustomButton.swift */,
+			);
+			path = ButtonStyles;
+			sourceTree = "<group>";
+		};
+		87E384E02B5DFD060096E037 /* ButtonsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				87E384E12B5DFD160096E037 /* DemoButtonsTableViewController.swift */,
+				87E384E22B5DFD160096E037 /* DemoButtonsTableViewController.xib */,
+				87E384E52B5DFD310096E037 /* ButtonTableViewCell.swift */,
+				87E384E62B5DFD310096E037 /* ButtonTableViewCell.xib */,
+				87D65D6D2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift */,
+				87D65D6E2B67292C0056FA28 /* SecondaryButtonTableViewCell.xib */,
+			);
+			path = ButtonsDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +270,23 @@
 			name = FlorezApp;
 			productName = FlorezApp;
 			productReference = 8783A1B82B54AC330056AB6A /* FlorezApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87E384B72B5DED480096E037 /* Demo UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E384C22B5DED480096E037 /* Build configuration list for PBXNativeTarget "Demo UI" */;
+			buildPhases = (
+				87E384B82B5DED480096E037 /* Sources */,
+				87E384BD2B5DED480096E037 /* Frameworks */,
+				87E384BE2B5DED480096E037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo UI";
+			productName = FlorezApp;
+			productReference = 87E384C52B5DED480096E037 /* Demo UI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,6 +318,7 @@
 			projectRoot = "";
 			targets = (
 				8783A1B72B54AC330056AB6A /* FlorezApp */,
+				87E384B72B5DED480096E037 /* Demo UI */,
 			);
 		};
 /* End PBXProject section */
@@ -128,9 +328,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D65D902B6736050056FA28 /* BodyLabelTableViewCell.xib in Resources */,
+				87D65D712B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */,
+				87D65D842B67357E0056FA28 /* LabelsDemoTableViewController.xib in Resources */,
+				87D65D8A2B6735BD0056FA28 /* TitleLabelTableViewCell.xib in Resources */,
+				87E384E42B5DFD160096E037 /* DemoButtonsTableViewController.xib in Resources */,
+				87E384D32B5DF8960096E037 /* Colors.xcassets in Resources */,
+				87E384CD2B5DEE410096E037 /* DemoUITableViewController.xib in Resources */,
 				8783A1CB2B54AC340056AB6A /* LaunchScreen.storyboard in Resources */,
 				8783A1C82B54AC340056AB6A /* Assets.xcassets in Resources */,
 				8783A1C32B54AC330056AB6A /* Main.storyboard in Resources */,
+				87D65D792B672C560056FA28 /* HomeScreenViewController.xib in Resources */,
+				87E384E82B5DFD310096E037 /* ButtonTableViewCell.xib in Resources */,
+				87D65D962B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E384BE2B5DED480096E037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D65D912B6736050056FA28 /* BodyLabelTableViewCell.xib in Resources */,
+				87D65D722B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */,
+				87D65D852B67357E0056FA28 /* LabelsDemoTableViewController.xib in Resources */,
+				87D65D8B2B6735BD0056FA28 /* TitleLabelTableViewCell.xib in Resources */,
+				87E384EF2B5DFE080096E037 /* DemoButtonsTableViewController.xib in Resources */,
+				87E384CE2B5DF0530096E037 /* DemoUITableViewController.xib in Resources */,
+				87E384EE2B5DFE080096E037 /* ButtonTableViewCell.xib in Resources */,
+				87E384BF2B5DED480096E037 /* LaunchScreen.storyboard in Resources */,
+				87E384C02B5DED480096E037 /* Assets.xcassets in Resources */,
+				87E384F22B5DFE1B0096E037 /* Colors.xcassets in Resources */,
+				87D65D7A2B672C560056FA28 /* HomeScreenViewController.xib in Resources */,
+				87E384C12B5DED480096E037 /* Main.storyboard in Resources */,
+				87D65D972B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +371,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E384CC2B5DEE410096E037 /* DemoUITableViewController.swift in Sources */,
+				87D65D822B67357E0056FA28 /* LabelsDemoTableViewController.swift in Sources */,
 				8783A1C02B54AC330056AB6A /* ViewController.swift in Sources */,
+				87D65D7D2B6733A80056FA28 /* CustomLabel.swift in Sources */,
 				8783A1C62B54AC330056AB6A /* FlorezApp.xcdatamodeld in Sources */,
+				87D65D882B6735BD0056FA28 /* TitleLabelTableViewCell.swift in Sources */,
+				87E384EA2B5DFDEB0096E037 /* DemoButtonsTableViewController.swift in Sources */,
+				87D65D772B672C560056FA28 /* HomeScreenViewController.swift in Sources */,
+				87D65D6F2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */,
+				87E384D72B5DFA9F0096E037 /* CustomButton.swift in Sources */,
+				87D65D8E2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
 				8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */,
+				87E384E72B5DFD310096E037 /* ButtonTableViewCell.swift in Sources */,
 				8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */,
+				87D65D942B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E384B82B5DED480096E037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E384CF2B5DF0530096E037 /* DemoUITableViewController.swift in Sources */,
+				87D65D832B67357E0056FA28 /* LabelsDemoTableViewController.swift in Sources */,
+				87E384B92B5DED480096E037 /* ViewController.swift in Sources */,
+				87D65D7E2B6733A80056FA28 /* CustomLabel.swift in Sources */,
+				87E384F12B5DFE140096E037 /* CustomButton.swift in Sources */,
+				87D65D892B6735BD0056FA28 /* TitleLabelTableViewCell.swift in Sources */,
+				87E384BA2B5DED480096E037 /* FlorezApp.xcdatamodeld in Sources */,
+				87E384BB2B5DED480096E037 /* AppDelegate.swift in Sources */,
+				87D65D782B672C560056FA28 /* HomeScreenViewController.swift in Sources */,
+				87D65D702B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */,
+				87D65D8F2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
+				87E384E92B5DFDE40096E037 /* DemoButtonsTableViewController.swift in Sources */,
+				87E384EB2B5DFDED0096E037 /* ButtonTableViewCell.swift in Sources */,
+				87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */,
+				87D65D952B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,10 +561,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q5893ZTFCF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FlorezApp/Info.plist;
+				INFOPLIST_FILE = FlorezApp/Sources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -310,6 +573,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DFLOREZ";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BodgarDev.FlorezApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -327,10 +591,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q5893ZTFCF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FlorezApp/Info.plist;
+				INFOPLIST_FILE = FlorezApp/Sources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -339,6 +603,67 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DFLOREZ";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BodgarDev.FlorezApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87E384C32B5DED480096E037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5893ZTFCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlorezApp/Sources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDEMOUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BodgarDev.FlorezApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87E384C42B5DED480096E037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q5893ZTFCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlorezApp/Sources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDEMOUI";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BodgarDev.FlorezApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -364,6 +689,15 @@
 			buildConfigurations = (
 				8783A1D02B54AC340056AB6A /* Debug */,
 				8783A1D12B54AC340056AB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E384C22B5DED480096E037 /* Build configuration list for PBXNativeTarget "Demo UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E384C32B5DED480096E037 /* Debug */,
+				87E384C42B5DED480096E037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
