@@ -15,12 +15,6 @@ class HomeScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let text = descriptionLabel.text ?? ""
-        let attributedString = NSMutableAttributedString(string: text)
-        let range = (text as NSString).range(of: "menos de 90 minutos.")
-        attributedString.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 20), range: range)
-        descriptionLabel.attributedText = attributedString
     }
     
     @IBAction func logInTapped(_ sender: CustomButton) {
