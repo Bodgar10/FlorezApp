@@ -30,6 +30,7 @@ enum DemoView {
     ///
     /// LogInFeature
     case homeScreenViewController
+    case registerScreenViewController
     
     
     /// FeedFeature
@@ -45,6 +46,8 @@ enum DemoView {
             return "Labels"
         case .homeScreenViewController:
             return "HomeScreenViewController"
+        case .registerScreenViewController:
+            return "RegisterScreenViewController"
         }
     }
     
@@ -56,6 +59,8 @@ enum DemoView {
             return LabelsDemoTableViewController()
         case .homeScreenViewController:
             return HomeScreenViewController()
+        case .registerScreenViewController:
+            return RegisterViewController()
         }
     }
 }
@@ -82,7 +87,8 @@ class DemoUITableViewController: UITableViewController {
         demoViews.append(
             (.logInFeature, 
              [
-                .homeScreenViewController
+                .homeScreenViewController,
+                .registerScreenViewController
              ]
             )
         )
