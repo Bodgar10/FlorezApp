@@ -18,8 +18,9 @@ class RegisterViewController: UIViewController {
     }
 
 
-    @IBAction func NextButtonPressed(_ sender: Any) {
+    @IBAction func nextButtonPressed(_ sender: UIButton) {
     }
+    
     /*
     // MARK: - Navigation
 

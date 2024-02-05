@@ -61,7 +61,7 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <action selector="NextButtonPressed:" destination="-1" eventType="touchUpInside" id="n49-tb-OrF"/>
+                        <action selector="nextButtonPressed:" destination="-1" eventType="touchUpInside" id="6Tc-Is-Qah"/>
                     </connections>
                 </button>
                 <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vbd-fi-Ub8">
