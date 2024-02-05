@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterPhoneViewController: UIViewController {
     
     
     @IBOutlet weak var phoneNumberTextField: UITextField!
