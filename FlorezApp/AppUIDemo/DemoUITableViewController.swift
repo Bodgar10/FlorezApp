@@ -25,11 +25,13 @@ enum DemoView {
     /// Enum to show only the UI Components (ej. Buttons, Labels, TableViews).
     case buttons
     case labels
+    case textFields
     
     /// Enum to show only the features
     ///
     /// LogInFeature
     case homeScreenViewController
+    case codeViewController
     
     
     /// FeedFeature
@@ -39,23 +41,46 @@ enum DemoView {
     
     var nameView: String {
         switch self {
+        case .textFields:
+            return "TextFields"
         case .buttons:
             return "Buttons"
         case .labels:
             return "Labels"
         case .homeScreenViewController:
             return "HomeScreenViewController"
+        case .codeViewController:
+            return "CodeViewController"
         }
     }
     
     var viewController: UIViewController {
         switch self {
+        case .textFields:
+            return DemoTextFieldsTableViewController()
         case .buttons:
             return DemoButtonsTableViewController()
         case .labels:
             return LabelsDemoTableViewController()
         case .homeScreenViewController:
             return HomeScreenViewController()
+        case .codeViewController:
+            return CodeViewController()
+        }
+    }
+    
+    var nameNav: String {
+        switch self {
+        case .textFields:
+            return ""
+        case .buttons:
+            return ""
+        case .labels:
+            return ""
+        case .homeScreenViewController:
+            return ""
+        case .codeViewController:
+            return "Registrate"
         }
     }
 }
@@ -73,7 +98,8 @@ class DemoUITableViewController: UITableViewController {
             (.components, 
              [
                 .buttons,
-                .labels
+                .labels,
+                .textFields
              ]
             )
         )
@@ -82,7 +108,8 @@ class DemoUITableViewController: UITableViewController {
         demoViews.append(
             (.logInFeature, 
              [
-                .homeScreenViewController
+                .homeScreenViewController,
+                .codeViewController
              ]
             )
         )
