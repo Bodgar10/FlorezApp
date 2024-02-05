@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController" customModule="Demo_UI" customModuleProvider="target">
             <connections>
+                <outlet property="phoneNumberTextField" destination="YgA-0w-FCt" id="LId-yZ-bSC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -59,6 +60,9 @@
                             <integer key="value" value="0"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="NextButtonPressed:" destination="-1" eventType="touchUpInside" id="n49-tb-OrF"/>
+                    </connections>
                 </button>
                 <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vbd-fi-Ub8">
                     <rect key="frame" x="0.0" y="46" width="393" height="44"/>

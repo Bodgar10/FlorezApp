@@ -10,6 +10,7 @@ import UIKit
 class RegisterViewController: UIViewController {
     
     
+    @IBOutlet weak var phoneNumberTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +18,8 @@ class RegisterViewController: UIViewController {
     }
 
 
+    @IBAction func NextButtonPressed(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
