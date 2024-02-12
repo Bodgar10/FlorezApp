@@ -11,6 +11,10 @@
 		75688E0B2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */; };
 		75688E0C2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */; };
 		75688E0D2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */; };
+		870F306E2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */; };
+		870F306F2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */; };
+		870F30702B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */; };
+		870F30712B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */; };
 		8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BB2B54AC330056AB6A /* AppDelegate.swift */; };
 		8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */; };
 		8783A1C02B54AC330056AB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BF2B54AC330056AB6A /* ViewController.swift */; };
@@ -76,6 +80,8 @@
 /* Begin PBXFileReference section */
 		75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPhoneViewController.swift; sourceTree = "<group>"; };
 		75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterPhoneViewController.xib; sourceTree = "<group>"; };
+		870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoSignInViewController.swift; sourceTree = "<group>"; };
+		870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionalInfoSignInViewController.xib; sourceTree = "<group>"; };
 		8783A1B82B54AC330056AB6A /* FlorezApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlorezApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8783A1BB2B54AC330056AB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -280,6 +286,8 @@
 			children = (
 				EEED8F212B798E1800490AB7 /* AditionalInformation.storyboard */,
 				EEED8F242B798E3C00490AB7 /* AditionalInformationViewController.swift */,
+				870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */,
+				870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */,
 			);
 			path = AditionalInformation;
 			sourceTree = "<group>";
@@ -363,6 +371,7 @@
 				87D65D902B6736050056FA28 /* BodyLabelTableViewCell.xib in Resources */,
 				87D65D712B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */,
 				87D65D842B67357E0056FA28 /* LabelsDemoTableViewController.xib in Resources */,
+				870F30702B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */,
 				87D65D8A2B6735BD0056FA28 /* TitleLabelTableViewCell.xib in Resources */,
 				87E384E42B5DFD160096E037 /* DemoButtonsTableViewController.xib in Resources */,
 				87E384D32B5DF8960096E037 /* Colors.xcassets in Resources */,
@@ -385,6 +394,7 @@
 				87D65D912B6736050056FA28 /* BodyLabelTableViewCell.xib in Resources */,
 				87D65D722B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */,
 				87D65D852B67357E0056FA28 /* LabelsDemoTableViewController.xib in Resources */,
+				870F30712B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */,
 				87D65D8B2B6735BD0056FA28 /* TitleLabelTableViewCell.xib in Resources */,
 				87E384EF2B5DFE080096E037 /* DemoButtonsTableViewController.xib in Resources */,
 				87E384CE2B5DF0530096E037 /* DemoUITableViewController.xib in Resources */,
@@ -420,6 +430,7 @@
 				87E384D72B5DFA9F0096E037 /* CustomButton.swift in Sources */,
 				87D65D8E2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
 				75688E0A2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */,
+				870F306E2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */,
 				8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */,
 				87E384E72B5DFD310096E037 /* ButtonTableViewCell.swift in Sources */,
 				8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */,
@@ -444,6 +455,7 @@
 				87D65D702B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */,
 				87D65D8F2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
 				75688E0B2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */,
+				870F306F2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */,
 				87E384E92B5DFDE40096E037 /* DemoButtonsTableViewController.swift in Sources */,
 				87E384EB2B5DFDED0096E037 /* ButtonTableViewCell.swift in Sources */,
 				87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */,
