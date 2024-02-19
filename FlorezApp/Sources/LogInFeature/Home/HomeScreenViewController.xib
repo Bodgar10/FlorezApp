@@ -111,7 +111,7 @@
     <resources>
         <image name="logo" width="267" height="187"/>
         <namedColor name="DSBackground">
-            <color red="0.93841344120000003" green="0.90994375940000005" blue="0.90954011680000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.93800002336502075" green="0.9100000262260437" blue="0.9100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
