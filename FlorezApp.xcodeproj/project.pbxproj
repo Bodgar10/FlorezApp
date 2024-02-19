@@ -71,6 +71,10 @@
 		87E384EF2B5DFE080096E037 /* DemoButtonsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384E22B5DFD160096E037 /* DemoButtonsTableViewController.xib */; };
 		87E384F12B5DFE140096E037 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384D62B5DFA9F0096E037 /* CustomButton.swift */; };
 		87E384F22B5DFE1B0096E037 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E384D22B5DF8960096E037 /* Colors.xcassets */; };
+		EE941F302B81B92900405F03 /* NamedSignedInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE941F2F2B81B92900405F03 /* NamedSignedInput.swift */; };
+		EE941F322B81C86F00405F03 /* PasswordInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE941F312B81C86F00405F03 /* PasswordInput.swift */; };
+		EE941F342B81C89700405F03 /* EmailInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE941F332B81C89700405F03 /* EmailInput.swift */; };
+		EE941F352B81C89700405F03 /* EmailInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE941F332B81C89700405F03 /* EmailInput.swift */; };
 		EEED8F222B798E1800490AB7 /* AditionalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEED8F212B798E1800490AB7 /* AditionalInformation.storyboard */; };
 		EEED8F232B798E1800490AB7 /* AditionalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEED8F212B798E1800490AB7 /* AditionalInformation.storyboard */; };
 		EEED8F252B798E3C00490AB7 /* AditionalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED8F242B798E3C00490AB7 /* AditionalInformationViewController.swift */; };
@@ -114,6 +118,9 @@
 		87E384E22B5DFD160096E037 /* DemoButtonsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoButtonsTableViewController.xib; sourceTree = "<group>"; };
 		87E384E52B5DFD310096E037 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
 		87E384E62B5DFD310096E037 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
+		EE941F2F2B81B92900405F03 /* NamedSignedInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedSignedInput.swift; sourceTree = "<group>"; };
+		EE941F312B81C86F00405F03 /* PasswordInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInput.swift; sourceTree = "<group>"; };
+		EE941F332B81C89700405F03 /* EmailInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailInput.swift; sourceTree = "<group>"; };
 		EEED8F212B798E1800490AB7 /* AditionalInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AditionalInformation.storyboard; sourceTree = "<group>"; };
 		EEED8F242B798E3C00490AB7 /* AditionalInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AditionalInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -254,6 +261,7 @@
 		87E384D42B5DFA600096E037 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				EE941F2E2B81B90300405F03 /* InputtextStyles */,
 				87D65D7B2B6733850056FA28 /* LabelStyles */,
 				87E384D82B5DFBED0096E037 /* ButtonStyles */,
 			);
@@ -279,6 +287,16 @@
 				87D65D6E2B67292C0056FA28 /* SecondaryButtonTableViewCell.xib */,
 			);
 			path = ButtonsDemo;
+			sourceTree = "<group>";
+		};
+		EE941F2E2B81B90300405F03 /* InputtextStyles */ = {
+			isa = PBXGroup;
+			children = (
+				EE941F2F2B81B92900405F03 /* NamedSignedInput.swift */,
+				EE941F312B81C86F00405F03 /* PasswordInput.swift */,
+				EE941F332B81C89700405F03 /* EmailInput.swift */,
+			);
+			path = InputtextStyles;
 			sourceTree = "<group>";
 		};
 		EEED8F202B798DF300490AB7 /* AditionalInformation */ = {
@@ -429,10 +447,13 @@
 				87D65D6F2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */,
 				87E384D72B5DFA9F0096E037 /* CustomButton.swift in Sources */,
 				87D65D8E2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
+				EE941F342B81C89700405F03 /* EmailInput.swift in Sources */,
 				75688E0A2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */,
 				870F306E2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */,
+				EE941F302B81B92900405F03 /* NamedSignedInput.swift in Sources */,
 				8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */,
 				87E384E72B5DFD310096E037 /* ButtonTableViewCell.swift in Sources */,
+				EE941F322B81C86F00405F03 /* PasswordInput.swift in Sources */,
 				8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */,
 				87D65D942B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift in Sources */,
 			);
@@ -457,6 +478,7 @@
 				75688E0B2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */,
 				870F306F2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */,
 				87E384E92B5DFDE40096E037 /* DemoButtonsTableViewController.swift in Sources */,
+				EE941F352B81C89700405F03 /* EmailInput.swift in Sources */,
 				87E384EB2B5DFDED0096E037 /* ButtonTableViewCell.swift in Sources */,
 				87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */,
 				87D65D952B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift in Sources */,

@@ -44,10 +44,16 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                                    <integer key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </label>
-                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Peter" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="akZ-N2-Oxw">
+                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Peter" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="akZ-N2-Oxw" customClass="NamedSignedInput" customModule="FlorezApp">
                                             <rect key="frame" x="0.0" y="20.333333333333325" width="182.66666666666666" height="38.666666666666657"/>
-                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsM-aK-zIt">
@@ -71,9 +77,9 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Escobedo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sv2-pF-cG7">
+                                        <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Escobedo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sv2-pF-cG7" customClass="NamedSignedInput" customModule="FlorezApp">
                                             <rect key="frame" x="0.0" y="20.333333333333325" width="182.33333333333334" height="38.666666666666657"/>
-                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xnM-1S-mzf">
@@ -90,7 +96,7 @@
                                 </stackView>
                             </subviews>
                         </stackView>
-                        <textField opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Correo electronico" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q3j-cc-p8G">
+                        <textField opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Correo electronico" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q3j-cc-p8G" customClass="EmailInput" customModule="FlorezApp">
                             <rect key="frame" x="0.0" y="76.000000000000014" width="369" height="22"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                             <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
@@ -102,7 +108,7 @@
                                 <constraint firstAttribute="height" constant="1" id="Qwx-rM-twV"/>
                             </constraints>
                         </view>
-                        <textField opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eA9-Ox-bhd">
+                        <textField opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eA9-Ox-bhd" customClass="PasswordInput" customModule="FlorezApp">
                             <rect key="frame" x="0.0" y="131" width="369" height="21"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -114,7 +120,7 @@
                                 <constraint firstAttribute="height" constant="1" id="nP5-cD-9cq"/>
                             </constraints>
                         </view>
-                        <textField opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirmar Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OWX-Oy-WWR">
+                        <textField opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirmar Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OWX-Oy-WWR" customClass="PasswordInput" customModule="FlorezApp">
                             <rect key="frame" x="0.0" y="185" width="369" height="21"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
