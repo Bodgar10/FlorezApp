@@ -11,6 +11,10 @@
 		75688E0B2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */; };
 		75688E0C2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */; };
 		75688E0D2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */; };
+		75917A802B8BB3A700B7B4E3 /* LogInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75917A7E2B8BB3A700B7B4E3 /* LogInScreenViewController.swift */; };
+		75917A812B8BB3A700B7B4E3 /* LogInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75917A7E2B8BB3A700B7B4E3 /* LogInScreenViewController.swift */; };
+		75917A822B8BB3A700B7B4E3 /* LogInScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75917A7F2B8BB3A700B7B4E3 /* LogInScreenViewController.xib */; };
+		75917A832B8BB3A700B7B4E3 /* LogInScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75917A7F2B8BB3A700B7B4E3 /* LogInScreenViewController.xib */; };
 		8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BB2B54AC330056AB6A /* AppDelegate.swift */; };
 		8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */; };
 		8783A1C02B54AC330056AB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BF2B54AC330056AB6A /* ViewController.swift */; };
@@ -72,6 +76,8 @@
 /* Begin PBXFileReference section */
 		75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPhoneViewController.swift; sourceTree = "<group>"; };
 		75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterPhoneViewController.xib; sourceTree = "<group>"; };
+		75917A7E2B8BB3A700B7B4E3 /* LogInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenViewController.swift; sourceTree = "<group>"; };
+		75917A7F2B8BB3A700B7B4E3 /* LogInScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInScreenViewController.xib; sourceTree = "<group>"; };
 		8783A1B82B54AC330056AB6A /* FlorezApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlorezApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8783A1BB2B54AC330056AB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +139,15 @@
 			path = Register;
 			sourceTree = "<group>";
 		};
+		75917A792B8BB37600B7B4E3 /* LogInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				75917A7E2B8BB3A700B7B4E3 /* LogInScreenViewController.swift */,
+				75917A7F2B8BB3A700B7B4E3 /* LogInScreenViewController.xib */,
+			);
+			path = LogInScreen;
+			sourceTree = "<group>";
+		};
 		8783A1AF2B54AC330056AB6A = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +179,7 @@
 		87D65D732B672C330056FA28 /* LogInFeature */ = {
 			isa = PBXGroup;
 			children = (
+				75917A792B8BB37600B7B4E3 /* LogInScreen */,
 				75688E072B6F0AC3002ABACD /* Register */,
 				87D65D742B672C420056FA28 /* Home */,
 			);
@@ -352,6 +368,7 @@
 				87E384D32B5DF8960096E037 /* Colors.xcassets in Resources */,
 				87E384CD2B5DEE410096E037 /* DemoUITableViewController.xib in Resources */,
 				8783A1CB2B54AC340056AB6A /* LaunchScreen.storyboard in Resources */,
+				75917A822B8BB3A700B7B4E3 /* LogInScreenViewController.xib in Resources */,
 				8783A1C82B54AC340056AB6A /* Assets.xcassets in Resources */,
 				75688E0C2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */,
 				8783A1C32B54AC330056AB6A /* Main.storyboard in Resources */,
@@ -373,6 +390,7 @@
 				87E384CE2B5DF0530096E037 /* DemoUITableViewController.xib in Resources */,
 				87E384EE2B5DFE080096E037 /* ButtonTableViewCell.xib in Resources */,
 				87E384BF2B5DED480096E037 /* LaunchScreen.storyboard in Resources */,
+				75917A832B8BB3A700B7B4E3 /* LogInScreenViewController.xib in Resources */,
 				87E384C02B5DED480096E037 /* Assets.xcassets in Resources */,
 				75688E0D2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */,
 				87E384F22B5DFE1B0096E037 /* Colors.xcassets in Resources */,
@@ -401,6 +419,7 @@
 				87E384D72B5DFA9F0096E037 /* CustomButton.swift in Sources */,
 				87D65D8E2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
 				75688E0A2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */,
+				75917A802B8BB3A700B7B4E3 /* LogInScreenViewController.swift in Sources */,
 				8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */,
 				87E384E72B5DFD310096E037 /* ButtonTableViewCell.swift in Sources */,
 				8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */,
@@ -424,6 +443,7 @@
 				87D65D702B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */,
 				87D65D8F2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
 				75688E0B2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */,
+				75917A812B8BB3A700B7B4E3 /* LogInScreenViewController.swift in Sources */,
 				87E384E92B5DFDE40096E037 /* DemoButtonsTableViewController.swift in Sources */,
 				87E384EB2B5DFDED0096E037 /* ButtonTableViewCell.swift in Sources */,
 				87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */,
