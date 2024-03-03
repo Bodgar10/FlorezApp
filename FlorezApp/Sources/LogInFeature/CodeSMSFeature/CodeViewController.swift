@@ -17,6 +17,21 @@ class CodeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+             view.addGestureRecognizer(tapGesture)
+        defineNavigationDigits()
+    }
+    
+    private func defineNavigationDigits() {
+        firstDigit.setTextFieldsNavigation(nextDigit: secondDigit, previousDigit: nil)
+        secondDigit.setTextFieldsNavigation(nextDigit: thirdDigit, previousDigit: firstDigit)
+        thirdDigit.setTextFieldsNavigation(nextDigit: fourthDigit, previousDigit: secondDigit)
+        fourthDigit.setTextFieldsNavigation(nextDigit: fivethDigit, previousDigit: thirdDigit)
+        fivethDigit.setTextFieldsNavigation(nextDigit: nil, previousDigit: firstDigit)
+    }
+    
+    @objc func hideKeyboard() {
+        view.endEditing(true)
     }
     
     @IBAction func buttonNext(_ sender: Any) {

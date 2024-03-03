@@ -41,12 +41,12 @@ enum DemoView {
     
     var nameView: String {
         switch self {
-        case .textFields:
-            return "TextFields"
         case .buttons:
             return "Buttons"
         case .labels:
             return "Labels"
+        case .textFields:
+            return "TextFields"
         case .homeScreenViewController:
             return "HomeScreenViewController"
         case .codeViewController:
@@ -56,12 +56,12 @@ enum DemoView {
     
     var viewController: UIViewController {
         switch self {
-        case .textFields:
-            return DemoTextFieldsTableViewController()
         case .buttons:
             return DemoButtonsTableViewController()
         case .labels:
             return LabelsDemoTableViewController()
+        case .textFields:
+            return DemoTextFieldsTableViewController()
         case .homeScreenViewController:
             return HomeScreenViewController()
         case .codeViewController:
@@ -78,7 +78,7 @@ enum DemoView {
         case .labels:
             return ""
         case .homeScreenViewController:
-            return ""
+            return "Inicio"
         case .codeViewController:
             return "Registrate"
         }

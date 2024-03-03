@@ -8,7 +8,9 @@
 import Foundation
 import UIKit
 
-class CustomTextField: UITextField, UITextFieldDelegate {
+class CustomTextField: UITextField {
+    @IBOutlet weak var nextDigit: CustomTextField?
+    @IBOutlet weak var previousDigit: CustomTextField?
     private var maxLength = 500
     enum TextFieldStyle: Int {
         case digits = 0
@@ -42,17 +44,53 @@ class CustomTextField: UITextField, UITextFieldDelegate {
     }
     
     private func configDigitsTextField() {
-        if let borderColor = UIColor(named: "DSPrimary") {
-            layer.borderColor = borderColor.cgColor
-        }
+        layer.borderColor = UIColor.dsPrimary.cgColor
         layer.borderWidth = 1.0
         layer.cornerRadius = 5.0
         self.maxLength = 1
     }
     
-   func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-       let currentText = self.text ?? ""
-       let newText = (currentText as NSString).replacingCharacters(in: range, with: string)
-       return newText.count <= self.maxLength
-   }
+    func setTextFieldsNavigation(nextDigit: CustomTextField?, previousDigit: CustomTextField?) {
+        if(style == 0) {
+            self.nextDigit = nextDigit
+            self.previousDigit = previousDigit
+        }
+    }
+}
+
+extension CustomTextField: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        if (style == 0) {
+            textField.text = ""
+        }
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        if (style == 0) {
+            let currentText = self.text ?? ""
+            let allowedCharacters = CharacterSet.decimalDigits
+            let characterSet = CharacterSet(charactersIn: string)
+            
+            if allowedCharacters.isSuperset(of: characterSet) {
+                if currentText.count == 1 && !(textField.text?.isEmpty ?? true) {
+                    nextDigit?.becomeFirstResponder()
+                }
+            } else {
+                if string == "" {
+                    return true
+                }
+                return false
+            }
+            
+            let newText = (currentText as NSString).replacingCharacters(in: range, with: string)
+            return newText.count <= self.maxLength
+        }
+        return true
+    }
+    
+    func textFieldShouldClear(_ textField: UITextField) -> Bool {
+        previousDigit?.becomeFirstResponder()
+        return true
+    }
 }
