@@ -31,6 +31,8 @@ enum DemoView {
     ///
     /// LogInFeature
     case homeScreenViewController
+    case registerPhoneScreenViewController
+    case additionalInfoSignInViewController
     case codeViewController
     
     
@@ -49,6 +51,10 @@ enum DemoView {
             return "TextFields"
         case .homeScreenViewController:
             return "HomeScreenViewController"
+        case .registerPhoneScreenViewController:
+            return "RegisterPhoneScreenViewController"
+        case .additionalInfoSignInViewController:
+            return "AdditionalInfoSignInViewController"
         case .codeViewController:
             return "CodeViewController"
         }
@@ -64,6 +70,10 @@ enum DemoView {
             return DemoTextFieldsTableViewController()
         case .homeScreenViewController:
             return HomeScreenViewController()
+        case .registerPhoneScreenViewController:
+            return RegisterPhoneViewController()
+        case .additionalInfoSignInViewController:
+            return AdditionalInfoSignInViewController()
         case .codeViewController:
             return CodeViewController()
         }
@@ -108,6 +118,9 @@ class DemoUITableViewController: UITableViewController {
         demoViews.append(
             (.logInFeature, 
              [
+                .homeScreenViewController,
+                .registerPhoneScreenViewController,
+                .additionalInfoSignInViewController
                 .homeScreenViewController,
                 .codeViewController
              ]
