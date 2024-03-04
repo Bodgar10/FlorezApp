@@ -11,7 +11,9 @@ import UIKit
 class CustomTextField: UITextField {
     @IBOutlet weak var nextDigit: CustomTextField?
     @IBOutlet weak var previousDigit: CustomTextField?
+    
     private var maxLength = 500
+    
     enum TextFieldStyle: Int {
         case digits = 0
     }

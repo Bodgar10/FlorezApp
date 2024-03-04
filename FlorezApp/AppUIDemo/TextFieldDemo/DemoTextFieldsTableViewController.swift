@@ -36,8 +36,10 @@ class DemoTextFieldsTableViewController: UITableViewController {
         
         switch indexPath.section {
         case 0:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "TextFieldDigitTableViewCell", for: indexPath) as! TextFieldDigitTableViewCell
-            return cell
+            if let cell = tableView.dequeueReusableCell(withIdentifier: "TextFieldDigitTableViewCell", for: indexPath) as? TextFieldDigitTableViewCell {
+                return cell
+            }
+            return UITableViewCell()
         default:
             return UITableViewCell()
         }
