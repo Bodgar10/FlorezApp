@@ -25,6 +25,7 @@ enum DemoView {
     /// Enum to show only the UI Components (ej. Buttons, Labels, TableViews).
     case buttons
     case labels
+    case textFields
     
     /// Enum to show only the features
     ///
@@ -32,6 +33,7 @@ enum DemoView {
     case homeScreenViewController
     case registerPhoneScreenViewController
     case additionalInfoSignInViewController
+    case codeViewController
     
     
     /// FeedFeature
@@ -45,12 +47,16 @@ enum DemoView {
             return "Buttons"
         case .labels:
             return "Labels"
+        case .textFields:
+            return "TextFields"
         case .homeScreenViewController:
             return "HomeScreenViewController"
         case .registerPhoneScreenViewController:
             return "RegisterPhoneScreenViewController"
         case .additionalInfoSignInViewController:
             return "AdditionalInfoSignInViewController"
+        case .codeViewController:
+            return "CodeViewController"
         }
     }
     
@@ -60,12 +66,35 @@ enum DemoView {
             return DemoButtonsTableViewController()
         case .labels:
             return LabelsDemoTableViewController()
+        case .textFields:
+            return DemoTextFieldsTableViewController()
         case .homeScreenViewController:
             return HomeScreenViewController()
         case .registerPhoneScreenViewController:
             return RegisterPhoneViewController()
         case .additionalInfoSignInViewController:
             return AdditionalInfoSignInViewController()
+        case .codeViewController:
+            return CodeViewController()
+        }
+    }
+    
+    var nameNav: String {
+        switch self {
+        case .textFields:
+            return ""
+        case .buttons:
+            return ""
+        case .labels:
+            return ""
+        case .homeScreenViewController:
+            return "Inicio"
+        case .codeViewController:
+            return "Registrate"
+        case .registerPhoneScreenViewController:
+            return ""
+        case .additionalInfoSignInViewController:
+            return ""
         }
     }
 }
@@ -83,7 +112,8 @@ class DemoUITableViewController: UITableViewController {
             (.components, 
              [
                 .buttons,
-                .labels
+                .labels,
+                .textFields
              ]
             )
         )
@@ -94,7 +124,8 @@ class DemoUITableViewController: UITableViewController {
              [
                 .homeScreenViewController,
                 .registerPhoneScreenViewController,
-                .additionalInfoSignInViewController
+                .additionalInfoSignInViewController,
+                .codeViewController
              ]
             )
         )
