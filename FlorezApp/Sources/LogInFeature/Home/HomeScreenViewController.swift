@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeScreenViewController: UIViewController {
+class HomeScreenViewController: MainViewController {
 
     // MARK: IBOutlets
     
@@ -26,7 +26,6 @@ class HomeScreenViewController: UIViewController {
         let signInPhoneVC = EnterPhoneViewController()
         navigationController?.pushViewController(signInPhoneVC, animated: true)
     }
-    
     
     
     /*

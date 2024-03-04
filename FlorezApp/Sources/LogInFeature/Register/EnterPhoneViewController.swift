@@ -8,25 +8,23 @@
 import UIKit
 import FirebaseAuth
 
-class EnterPhoneViewController: UIViewController {
+class EnterPhoneViewController: MainViewController {
 
     @IBOutlet weak var lblTitleScreen: CustomLabel!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
+    var viewModel = PhoneViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        viewModel.completion = { error in
+            print(error.localizedDescription)
+        }
     }
-
+    
     @IBAction func nextButtonPressed(_ sender: UIButton) {
         let phone = "+52\(phoneNumberTextField.text ?? "")"
-        PhoneAuthProvider.provider()
-            .verifyPhoneNumber(phone, uiDelegate: nil) { verificationID, error in
-                if let error = error {
-                    print(error.localizedDescription)
-                } else {
-                    print(verificationID)
-                }
-          }
+        viewModel.verifyPhone(with: phone)
     }
 }

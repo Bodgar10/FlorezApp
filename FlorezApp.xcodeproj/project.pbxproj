@@ -11,8 +11,6 @@
 		870F306F2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */; };
 		870F30702B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */; };
 		870F30712B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */; };
-		875E40982B9276E400EC76BE /* SSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E40972B9276E400EC76BE /* SSegmentedControl.swift */; };
-		875E40992B9276E400EC76BE /* SSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E40972B9276E400EC76BE /* SSegmentedControl.swift */; };
 		8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BB2B54AC330056AB6A /* AppDelegate.swift */; };
 		8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */; };
 		8783A1C02B54AC330056AB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BF2B54AC330056AB6A /* ViewController.swift */; };
@@ -76,6 +74,10 @@
 		878501E02B82E0C60011DD4F /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 878501DF2B82E0C60011DD4F /* FirebaseRemoteConfigSwift */; };
 		878501E22B82E0C60011DD4F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 878501E12B82E0C60011DD4F /* FirebaseStorage */; };
 		878501E42B82E0C60011DD4F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 878501E32B82E0C60011DD4F /* FirebaseStorageCombine-Community */; };
+		87C04DE72B95517C00005EBE /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C04DE62B95517C00005EBE /* PhoneViewModel.swift */; };
+		87C04DE82B95517C00005EBE /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C04DE62B95517C00005EBE /* PhoneViewModel.swift */; };
+		87C04DEB2B9552D200005EBE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C04DEA2B9552D200005EBE /* MainViewController.swift */; };
+		87C04DEC2B9552D200005EBE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C04DEA2B9552D200005EBE /* MainViewController.swift */; };
 		87D65D6F2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D6D2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift */; };
 		87D65D702B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D65D6D2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift */; };
 		87D65D712B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D65D6E2B67292C0056FA28 /* SecondaryButtonTableViewCell.xib */; };
@@ -134,7 +136,6 @@
 /* Begin PBXFileReference section */
 		870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoSignInViewController.swift; sourceTree = "<group>"; };
 		870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionalInfoSignInViewController.xib; sourceTree = "<group>"; };
-		875E40972B9276E400EC76BE /* SSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSegmentedControl.swift; sourceTree = "<group>"; };
 		8783A1B82B54AC330056AB6A /* FlorezApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlorezApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8783A1BB2B54AC330056AB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +148,8 @@
 		878501762B82DBCB0011DD4F /* EnterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneViewController.swift; sourceTree = "<group>"; };
 		878501772B82DBCB0011DD4F /* EnterPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterPhoneViewController.xib; sourceTree = "<group>"; };
 		8785017C2B82DEBE0011DD4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87C04DE62B95517C00005EBE /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
+		87C04DEA2B9552D200005EBE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		87D65D6D2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonTableViewCell.swift; sourceTree = "<group>"; };
 		87D65D6E2B67292C0056FA28 /* SecondaryButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondaryButtonTableViewCell.xib; sourceTree = "<group>"; };
 		87D65D752B672C560056FA28 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
@@ -248,16 +251,9 @@
 			children = (
 				878501762B82DBCB0011DD4F /* EnterPhoneViewController.swift */,
 				878501772B82DBCB0011DD4F /* EnterPhoneViewController.xib */,
+				87C04DE62B95517C00005EBE /* PhoneViewModel.swift */,
 			);
 			path = Register;
-			sourceTree = "<group>";
-		};
-		875E40962B9276D700EC76BE /* SegmentedGroup */ = {
-			isa = PBXGroup;
-			children = (
-				875E40972B9276E400EC76BE /* SSegmentedControl.swift */,
-			);
-			path = SegmentedGroup;
 			sourceTree = "<group>";
 		};
 		8783A1AF2B54AC330056AB6A = {
@@ -294,6 +290,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87C04DE92B9552BC00005EBE /* General */ = {
+			isa = PBXGroup;
+			children = (
+				87C04DEA2B9552D200005EBE /* MainViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		87D65D732B672C330056FA28 /* LogInFeature */ = {
@@ -352,6 +356,7 @@
 		87E384C82B5DEE100096E037 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				87C04DE92B9552BC00005EBE /* General */,
 				87D65D732B672C330056FA28 /* LogInFeature */,
 				8783A1BB2B54AC330056AB6A /* AppDelegate.swift */,
 				8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */,
@@ -378,7 +383,6 @@
 		87E384D42B5DFA600096E037 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				875E40962B9276D700EC76BE /* SegmentedGroup */,
 				EE941F2E2B81B90300405F03 /* InputtextStyles */,
 				87D65D7B2B6733850056FA28 /* LabelStyles */,
 				87E384D82B5DFBED0096E037 /* ButtonStyles */,
@@ -609,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E384CC2B5DEE410096E037 /* DemoUITableViewController.swift in Sources */,
+				87C04DEB2B9552D200005EBE /* MainViewController.swift in Sources */,
 				87D65D822B67357E0056FA28 /* LabelsDemoTableViewController.swift in Sources */,
 				8783A1C02B54AC330056AB6A /* ViewController.swift in Sources */,
 				87D65D7D2B6733A80056FA28 /* CustomLabel.swift in Sources */,
@@ -617,9 +622,9 @@
 				87E384EA2B5DFDEB0096E037 /* DemoButtonsTableViewController.swift in Sources */,
 				87D65D772B672C560056FA28 /* HomeScreenViewController.swift in Sources */,
 				87D65D6F2B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */,
+				87C04DE72B95517C00005EBE /* PhoneViewModel.swift in Sources */,
 				87E384D72B5DFA9F0096E037 /* CustomButton.swift in Sources */,
 				87D65D8E2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
-				875E40982B9276E400EC76BE /* SSegmentedControl.swift in Sources */,
 				EE941F342B81C89700405F03 /* EmailInput.swift in Sources */,
 				870F306E2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */,
 				EE941F302B81B92900405F03 /* NamedSignedInput.swift in Sources */,
@@ -636,7 +641,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875E40992B9276E400EC76BE /* SSegmentedControl.swift in Sources */,
 				87E384CF2B5DF0530096E037 /* DemoUITableViewController.swift in Sources */,
 				87D65D832B67357E0056FA28 /* LabelsDemoTableViewController.swift in Sources */,
 				87E384B92B5DED480096E037 /* ViewController.swift in Sources */,
@@ -644,6 +648,7 @@
 				87D65D7E2B6733A80056FA28 /* CustomLabel.swift in Sources */,
 				87E384F12B5DFE140096E037 /* CustomButton.swift in Sources */,
 				87D65D892B6735BD0056FA28 /* TitleLabelTableViewCell.swift in Sources */,
+				87C04DE82B95517C00005EBE /* PhoneViewModel.swift in Sources */,
 				87E384BA2B5DED480096E037 /* FlorezApp.xcdatamodeld in Sources */,
 				87E384BB2B5DED480096E037 /* AppDelegate.swift in Sources */,
 				87D65D782B672C560056FA28 /* HomeScreenViewController.swift in Sources */,
@@ -655,6 +660,7 @@
 				87E384EB2B5DFDED0096E037 /* ButtonTableViewCell.swift in Sources */,
 				87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */,
 				87D65D952B67364F0056FA28 /* BoldDescriptionLabelTableViewCell.swift in Sources */,
+				87C04DEC2B9552D200005EBE /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
