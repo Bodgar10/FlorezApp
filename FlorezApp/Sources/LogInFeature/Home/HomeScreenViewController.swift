@@ -18,11 +18,13 @@ class HomeScreenViewController: UIViewController {
     }
     
     @IBAction func logInTapped(_ sender: CustomButton) {
-        
+        let signInPhoneVC = EnterPhoneViewController()
+        navigationController?.pushViewController(signInPhoneVC, animated: true)
     }
     
     @IBAction func signInTapped(_ sender: CustomButton) {
-        
+        let signInPhoneVC = EnterPhoneViewController()
+        navigationController?.pushViewController(signInPhoneVC, animated: true)
     }
     
     

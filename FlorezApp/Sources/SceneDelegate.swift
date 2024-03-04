@@ -19,8 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 #if FLOREZ
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        let viewController = ViewController()
-        window.rootViewController = viewController
+        let homeViewController = HomeScreenViewController()
+        let navigation = UINavigationController(rootViewController: homeViewController)
+        window.rootViewController = navigation
         self.window = window
         window.makeKeyAndVisible()
 #elseif DEMOUI

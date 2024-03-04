@@ -3,8 +3,8 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -92,11 +92,51 @@
                         </stackView>
                     </subviews>
                 </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTb-CD-Lb8" customClass="SSSegmentedControl" customModule="Demo_UI" customModuleProvider="target">
+                    <rect key="frame" x="76" y="600" width="240" height="70"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="0W5-l0-5PO"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="currentIndexTitleColor">
+                            <color key="value" red="0.93432927129999999" green="0.2259784937" blue="0.34320646519999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="currentIndexBackgroundColor">
+                            <color key="value" red="0.97513514759999997" green="0.62338161469999998" blue="0.050333447750000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="otherIndexTitleColor">
+                            <color key="value" red="0.92979627850000002" green="0.90793007609999998" blue="0.90392607449999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="currentIndex">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="buttonCornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" systemColor="systemBlueColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numberOfSegments">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="segmentsTitle" value="Due Today, All Items"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" name="DSBackground"/>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.9100000262260437" blue="0.9100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NTb-CD-Lb8" secondAttribute="trailing" constant="77" id="1zA-fa-5Rw"/>
+                <constraint firstItem="NTb-CD-Lb8" firstAttribute="top" secondItem="VqW-Z7-shz" secondAttribute="bottom" constant="48" id="CIe-Rz-VtS"/>
                 <constraint firstItem="VqW-Z7-shz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="SuI-ho-jV6"/>
+                <constraint firstItem="NTb-CD-Lb8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="76" id="WOr-OK-LSt"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VqW-Z7-shz" secondAttribute="trailing" constant="16" id="ck9-fg-nhb"/>
                 <constraint firstItem="p1z-Q2-IoN" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.2" id="gVZ-ep-ISi"/>
                 <constraint firstItem="VqW-Z7-shz" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gbC-oB-EFx"/>
@@ -110,8 +150,11 @@
     </objects>
     <resources>
         <image name="logo" width="267" height="187"/>
-        <namedColor name="DSBackground">
-            <color red="0.93800002336502075" green="0.9100000262260437" blue="0.9100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
