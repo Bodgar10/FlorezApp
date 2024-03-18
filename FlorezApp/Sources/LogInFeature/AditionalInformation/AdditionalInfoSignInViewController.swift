@@ -7,20 +7,13 @@
 
 import UIKit
 
-class AdditionalInfoSignInViewController: UIViewController {
+class AdditionalInfoSignInViewController: MainViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
-        view.addGestureRecognizer(tapGesture)
-        
         nameTextField.delegate = self
-    }
-    
-    @objc func hideKeyboard() {
-        view.endEditing(true)
     }
 
 }

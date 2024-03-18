@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EnterPhoneViewController" customModule="Demo_UI" customModuleProvider="target">
+            <connections>
+                <outlet property="lblTitleScreen" destination="FOk-jm-dsX" id="3Ni-LX-xFT"/>
+                <outlet property="phoneNumberTextField" destination="kQA-Xe-Fgy" id="0Zi-wy-yAT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwo-zd-QTk" customClass="CustomButton" customModule="Demo_UI" customModuleProvider="target">
+                    <rect key="frame" x="108" y="323" width="177" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Z0G-rC-MUl"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Siguiente"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="style">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="nextButtonPressed:" destination="-1" eventType="touchUpInside" id="zYX-AG-Kx7"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JgM-eO-fCD">
+                    <rect key="frame" x="0.0" y="232.66666666666666" width="393" height="1"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Xuf-wx-fsn"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registrate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOk-jm-dsX" customClass="CustomLabel" customModule="Demo_UI" customModuleProvider="target">
+                    <rect key="frame" x="157.66666666666666" y="91" width="77.666666666666657" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="style">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="5555" textAlignment="natural" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="kQA-Xe-Fgy">
+                    <rect key="frame" x="71" y="187" width="306" height="37.666666666666657"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🇲🇽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7a-yC-13t">
+                    <rect key="frame" x="16" y="187" width="45" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.91000002619999998" blue="0.91000002619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kQA-Xe-Fgy" secondAttribute="trailing" constant="16" id="4nD-mZ-bjE"/>
+                <constraint firstItem="JgM-eO-fCD" firstAttribute="top" secondItem="kQA-Xe-Fgy" secondAttribute="bottom" constant="8" id="EpX-NG-qNn"/>
+                <constraint firstAttribute="trailing" secondItem="JgM-eO-fCD" secondAttribute="trailing" id="SFy-ka-HOh"/>
+                <constraint firstItem="FOk-jm-dsX" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="SeT-I6-v5T"/>
+                <constraint firstItem="iwo-zd-QTk" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.45" id="Tbg-kf-IBx"/>
+                <constraint firstItem="iwo-zd-QTk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="W7P-9x-lzP"/>
+                <constraint firstItem="iwo-zd-QTk" firstAttribute="top" secondItem="y7a-yC-13t" secondAttribute="bottom" constant="88" id="jCd-is-5jv"/>
+                <constraint firstItem="y7a-yC-13t" firstAttribute="top" secondItem="FOk-jm-dsX" secondAttribute="bottom" constant="75" id="piL-mR-OcT"/>
+                <constraint firstItem="kQA-Xe-Fgy" firstAttribute="top" secondItem="FOk-jm-dsX" secondAttribute="bottom" constant="75" id="s6A-QF-zvm"/>
+                <constraint firstItem="kQA-Xe-Fgy" firstAttribute="leading" secondItem="y7a-yC-13t" secondAttribute="trailing" constant="10" id="suy-09-hT7"/>
+                <constraint firstItem="FOk-jm-dsX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="trr-cH-PEv"/>
+                <constraint firstItem="JgM-eO-fCD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="v41-Fa-5PY"/>
+                <constraint firstItem="y7a-yC-13t" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="zvg-HU-rRr"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="21"/>
+        </view>
+    </objects>
+</document>

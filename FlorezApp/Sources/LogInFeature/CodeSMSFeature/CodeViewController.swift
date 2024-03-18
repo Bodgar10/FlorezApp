@@ -7,19 +7,24 @@
 
 import UIKit
 
-class CodeViewController: UIViewController {
-    @IBOutlet weak var firstDigit: CustomTextField!
-    @IBOutlet weak var secondDigit: CustomTextField!
-    @IBOutlet weak var thirdDigit: CustomTextField!
-    @IBOutlet weak var fourthDigit: CustomTextField!
-    @IBOutlet weak var fivethDigit: CustomTextField!
-    @IBOutlet weak var numberSms: UILabel!
+final class CodeViewController: MainViewController {
+    @IBOutlet private weak var firstDigit: CustomTextField!
+    @IBOutlet private weak var secondDigit: CustomTextField!
+    @IBOutlet private weak var thirdDigit: CustomTextField!
+    @IBOutlet private weak var fourthDigit: CustomTextField!
+    @IBOutlet private weak var fivethDigit: CustomTextField!
+    @IBOutlet private weak var numberSms: UILabel!
+    
+    var phone = ""
+    var viewModel: CodeViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
-             view.addGestureRecognizer(tapGesture)
         defineNavigationDigits()
+        
+        numberSms.text = phone
+        errorBinding()
+        successBinding()
     }
     
     private func defineNavigationDigits() {
@@ -30,13 +35,22 @@ class CodeViewController: UIViewController {
         fivethDigit.setTextFieldsNavigation(nextDigit: nil, previousDigit: firstDigit)
     }
     
-    @objc func hideKeyboard() {
-        view.endEditing(true)
+    @IBAction private func buttonNext(_ sender: Any) {
     }
     
-    @IBAction func buttonNext(_ sender: Any) {
+    @IBAction private func buttonSendCode(_ sender: Any) {
+        viewModel?.verifyPhone(with: phone)
     }
     
-    @IBAction func buttonSendCode(_ sender: Any) {
+    private func errorBinding() {
+        viewModel?.completion = { error in
+            self.showAlert(title: "Error", message: error.localizedDescription)
+        }
+    }
+    
+    private func successBinding() {
+        viewModel?.completionSuccess = {
+            self.showAlert(title: "Código reenviado", message: "Enviamos nuevamente el código de verificación.")
+        }
     }
 }

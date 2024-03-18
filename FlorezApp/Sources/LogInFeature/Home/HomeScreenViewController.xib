@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeScreenViewController" customModule="Demo_UI" customModuleProvider="target">
             <connections>
+                <outlet property="creditCardView" destination="BkR-Nm-thI" id="5vl-0b-UpZ"/>
                 <outlet property="descriptionLabel" destination="Jbx-Zd-FYZ" id="Ygn-SB-G5p"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -92,26 +93,56 @@
                         </stackView>
                     </subviews>
                 </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BkR-Nm-thI">
+                    <rect key="frame" x="16" y="582" width="361" height="55"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ccU-ja-Zzh">
+                            <rect key="frame" x="16" y="6.6666666666666288" width="43" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="43" id="61e-7a-cAe"/>
+                                <constraint firstAttribute="height" constant="42" id="kPJ-f6-Udf"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ir6-OS-4iV">
+                            <rect key="frame" x="69" y="17.333333333333371" width="282" height="20.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ir6-OS-4iV" secondAttribute="trailing" constant="10" id="DT6-kH-6qB"/>
+                        <constraint firstAttribute="height" constant="55" id="ITK-PP-29r"/>
+                        <constraint firstItem="ccU-ja-Zzh" firstAttribute="leading" secondItem="BkR-Nm-thI" secondAttribute="leading" constant="16" id="QYv-4r-hqZ"/>
+                        <constraint firstItem="ccU-ja-Zzh" firstAttribute="centerY" secondItem="BkR-Nm-thI" secondAttribute="centerY" id="hg0-LB-5nq"/>
+                        <constraint firstItem="ir6-OS-4iV" firstAttribute="centerY" secondItem="BkR-Nm-thI" secondAttribute="centerY" id="kKr-kl-OSh"/>
+                        <constraint firstItem="ir6-OS-4iV" firstAttribute="leading" secondItem="ccU-ja-Zzh" secondAttribute="trailing" constant="10" id="q2B-XA-qMI"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" name="DSBackground"/>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.9100000262260437" blue="0.9100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="BkR-Nm-thI" firstAttribute="top" secondItem="VqW-Z7-shz" secondAttribute="bottom" constant="30" id="A8E-k7-z2G"/>
                 <constraint firstItem="VqW-Z7-shz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="SuI-ho-jV6"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VqW-Z7-shz" secondAttribute="trailing" constant="16" id="ck9-fg-nhb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BkR-Nm-thI" secondAttribute="trailing" constant="16" id="gTs-o8-9at"/>
                 <constraint firstItem="p1z-Q2-IoN" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.2" id="gVZ-ep-ISi"/>
                 <constraint firstItem="VqW-Z7-shz" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gbC-oB-EFx"/>
                 <constraint firstItem="p1z-Q2-IoN" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.7" id="kIe-7X-fof"/>
                 <constraint firstItem="p1z-Q2-IoN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="meR-9I-SSp"/>
                 <constraint firstItem="p1z-Q2-IoN" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="pxg-gs-HSv"/>
                 <constraint firstItem="VqW-Z7-shz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wa8-nt-R5a"/>
+                <constraint firstItem="BkR-Nm-thI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="wxc-X9-2cB"/>
             </constraints>
-            <point key="canvasLocation" x="138" y="21"/>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
         </view>
     </objects>
     <resources>
         <image name="logo" width="267" height="187"/>
-        <namedColor name="DSBackground">
-            <color red="0.93800002336502075" green="0.9100000262260437" blue="0.9100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

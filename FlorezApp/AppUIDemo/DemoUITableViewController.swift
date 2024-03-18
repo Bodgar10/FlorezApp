@@ -31,7 +31,7 @@ enum DemoView {
     ///
     /// LogInFeature
     case homeScreenViewController
-    case registerPhoneScreenViewController
+    case enterPhoneViewController
     case additionalInfoSignInViewController
     case codeViewController
     
@@ -51,8 +51,8 @@ enum DemoView {
             return "TextFields"
         case .homeScreenViewController:
             return "HomeScreenViewController"
-        case .registerPhoneScreenViewController:
-            return "RegisterPhoneScreenViewController"
+        case .enterPhoneViewController:
+            return "EnterPhoneViewController"
         case .additionalInfoSignInViewController:
             return "AdditionalInfoSignInViewController"
         case .codeViewController:
@@ -70,8 +70,8 @@ enum DemoView {
             return DemoTextFieldsTableViewController()
         case .homeScreenViewController:
             return HomeScreenViewController()
-        case .registerPhoneScreenViewController:
-            return RegisterPhoneViewController()
+        case .enterPhoneViewController:
+            return EnterPhoneViewController()
         case .additionalInfoSignInViewController:
             return AdditionalInfoSignInViewController()
         case .codeViewController:
@@ -91,7 +91,7 @@ enum DemoView {
             return "Inicio"
         case .codeViewController:
             return "Registrate"
-        case .registerPhoneScreenViewController:
+        case .enterPhoneViewController:
             return ""
         case .additionalInfoSignInViewController:
             return ""
@@ -123,9 +123,9 @@ class DemoUITableViewController: UITableViewController {
             (.logInFeature, 
              [
                 .homeScreenViewController,
-                .registerPhoneScreenViewController,
                 .additionalInfoSignInViewController,
-                .codeViewController
+                .codeViewController,
+                .enterPhoneViewController
              ]
             )
         )
