@@ -91,7 +91,7 @@ enum DemoView {
             return "Inicio"
         case .codeViewController:
             return "Registrate"
-        case .registerPhoneScreenViewController:
+        case .enterPhoneViewController:
             return ""
         case .additionalInfoSignInViewController:
             return ""
@@ -123,11 +123,9 @@ class DemoUITableViewController: UITableViewController {
             (.logInFeature, 
              [
                 .homeScreenViewController,
-                .registerPhoneScreenViewController,
                 .additionalInfoSignInViewController,
-                .codeViewController
-                .enterPhoneViewController,
-                .additionalInfoSignInViewController
+                .codeViewController,
+                .enterPhoneViewController
              ]
             )
         )

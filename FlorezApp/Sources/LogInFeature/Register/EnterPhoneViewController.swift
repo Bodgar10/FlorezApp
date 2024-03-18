@@ -13,18 +13,20 @@ class EnterPhoneViewController: MainViewController {
     @IBOutlet weak var lblTitleScreen: CustomLabel!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
-    var viewModel = PhoneViewModel()
+    lazy var viewModel = PhoneViewModel(navigation: navigationController)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        viewModel.completion = { error in
-            print(error.localizedDescription)
-        }
+        errorBinding()
     }
     
     @IBAction func nextButtonPressed(_ sender: UIButton) {
-        let phone = "+52\(phoneNumberTextField.text ?? "")"
-        viewModel.verifyPhone(with: phone)
+        viewModel.verifyPhone(with: phoneNumberTextField.text)
+    }
+    
+    private func errorBinding() {
+        viewModel.completion = { error in
+            self.showAlert(title: "Error", message: error.localizedDescription)
+        }
     }
 }
