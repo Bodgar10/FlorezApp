@@ -7,7 +7,22 @@
 
 import Firebase
 
-final class PhoneViewModel {
+/// Programación orientada a objetos. (struct)
+/// Programación orientada a protocolos.
+
+
+protocol PhoneProtocol {
+    func verifyPhone(with phone: String?)
+}
+
+/// MVVM MVP VIPER MVVM +C MVC VIP SOLID Principles.
+/// MVVM + C
+/// 1.- Se hace la navegacion. -> Router, Coordinator
+/// 2.- Se ejecuta el servicio de verificar teléfono. -> Interactor, ViewModel, Coordinator.
+/// 3.- Se validan errores internos y de servidor. -> Interactor, ViewModel
+///
+/// RXSwift o Combine
+final class PhoneViewModel: PhoneProtocol {
     
     private let navigation: UINavigationController?
     
@@ -24,7 +39,10 @@ final class PhoneViewModel {
             if let error = error {
                 self.completion?(error)
             } else {
-                self.navigation?.pushViewController(CodeViewController(), animated: true)
+                let viewController = CodeViewController()
+                viewController.viewModel = CodeViewModel(navigation: self.navigation, verificationID: verificationID)
+                viewController.phone = phone
+                self.navigation?.pushViewController(viewController, animated: true)
             }
         }
     }

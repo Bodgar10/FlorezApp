@@ -12,9 +12,21 @@ class HomeScreenViewController: MainViewController {
     // MARK: IBOutlets
     
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var creditCardView: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        creditCardView.layer.cornerRadius = 10.0
+        creditCardView.layer.borderWidth = 1
+        creditCardView.layer.borderColor = UIColor.black.cgColor
+        
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(creditCardTapped))
+        creditCardView.addGestureRecognizer(gesture)
+    }
+    
+    @objc func creditCardTapped() {
+        print("CLICK A LA TArjeta de credito.")
     }
     
     @IBAction func logInTapped(_ sender: CustomButton) {
