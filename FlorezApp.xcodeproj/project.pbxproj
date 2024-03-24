@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75688E0A2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */; };
-		75688E0B2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */; };
-		75688E0C2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */; };
-		75688E0D2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */; };
-		870F306E2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */; };
-		870F306F2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */; };
-		870F30702B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */; };
-		870F30712B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */; };
 		085C185E2B704FE4006453ED /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C185C2B704FE4006453ED /* CodeViewController.swift */; };
 		085C185F2B704FE4006453ED /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C185C2B704FE4006453ED /* CodeViewController.swift */; };
 		085C18602B704FE4006453ED /* CodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085C185D2B704FE4006453ED /* CodeViewController.xib */; };
@@ -27,6 +19,14 @@
 		085C18722B70A16C006453ED /* DemoTextFieldsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085C18702B70A16C006453ED /* DemoTextFieldsTableViewController.xib */; };
 		085C18732B70A1CF006453ED /* DemoTextFieldsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C186F2B70A16C006453ED /* DemoTextFieldsTableViewController.swift */; };
 		085C18742B70A1D2006453ED /* DemoTextFieldsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085C18702B70A16C006453ED /* DemoTextFieldsTableViewController.xib */; };
+		75688E0A2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */; };
+		75688E0B2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */; };
+		75688E0C2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */; };
+		75688E0D2B6F0AF9002ABACD /* RegisterPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */; };
+		870F306E2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */; };
+		870F306F2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */; };
+		870F30702B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */; };
+		870F30712B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */; };
 		8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BB2B54AC330056AB6A /* AppDelegate.swift */; };
 		8783A1BE2B54AC330056AB6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */; };
 		8783A1C02B54AC330056AB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8783A1BF2B54AC330056AB6A /* ViewController.swift */; };
@@ -83,6 +83,10 @@
 		87E384EF2B5DFE080096E037 /* DemoButtonsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87E384E22B5DFD160096E037 /* DemoButtonsTableViewController.xib */; };
 		87E384F12B5DFE140096E037 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E384D62B5DFA9F0096E037 /* CustomButton.swift */; };
 		87E384F22B5DFE1B0096E037 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E384D22B5DF8960096E037 /* Colors.xcassets */; };
+		EE3B417D2BA7B827000881C2 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B417B2BA7B827000881C2 /* PaymentViewController.swift */; };
+		EE3B417E2BA7B827000881C2 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B417B2BA7B827000881C2 /* PaymentViewController.swift */; };
+		EE3B417F2BA7B827000881C2 /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3B417C2BA7B827000881C2 /* PaymentViewController.xib */; };
+		EE3B41802BA7B827000881C2 /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3B417C2BA7B827000881C2 /* PaymentViewController.xib */; };
 		EE941F302B81B92900405F03 /* NamedSignedInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE941F2F2B81B92900405F03 /* NamedSignedInput.swift */; };
 		EE941F322B81C86F00405F03 /* PasswordInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE941F312B81C86F00405F03 /* PasswordInput.swift */; };
 		EE941F342B81C89700405F03 /* EmailInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE941F332B81C89700405F03 /* EmailInput.swift */; };
@@ -94,10 +98,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPhoneViewController.swift; sourceTree = "<group>"; };
-		75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterPhoneViewController.xib; sourceTree = "<group>"; };
-		870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoSignInViewController.swift; sourceTree = "<group>"; };
-		870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionalInfoSignInViewController.xib; sourceTree = "<group>"; };
 		085C185C2B704FE4006453ED /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		085C185D2B704FE4006453ED /* CodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeViewController.xib; sourceTree = "<group>"; };
 		085C18632B7056D6006453ED /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -105,6 +105,10 @@
 		085C186C2B709E7B006453ED /* TextFieldDigitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldDigitTableViewCell.xib; sourceTree = "<group>"; };
 		085C186F2B70A16C006453ED /* DemoTextFieldsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTextFieldsTableViewController.swift; sourceTree = "<group>"; };
 		085C18702B70A16C006453ED /* DemoTextFieldsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTextFieldsTableViewController.xib; sourceTree = "<group>"; };
+		75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPhoneViewController.swift; sourceTree = "<group>"; };
+		75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterPhoneViewController.xib; sourceTree = "<group>"; };
+		870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoSignInViewController.swift; sourceTree = "<group>"; };
+		870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionalInfoSignInViewController.xib; sourceTree = "<group>"; };
 		8783A1B82B54AC330056AB6A /* FlorezApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlorezApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8783A1BB2B54AC330056AB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8783A1BD2B54AC330056AB6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 		87E384E22B5DFD160096E037 /* DemoButtonsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoButtonsTableViewController.xib; sourceTree = "<group>"; };
 		87E384E52B5DFD310096E037 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
 		87E384E62B5DFD310096E037 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
+		EE3B417B2BA7B827000881C2 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaymentViewController.swift; path = PaymentSelection/PaymentViewController.swift; sourceTree = "<group>"; };
+		EE3B417C2BA7B827000881C2 /* PaymentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PaymentViewController.xib; path = PaymentSelection/PaymentViewController.xib; sourceTree = "<group>"; };
 		EE941F2F2B81B92900405F03 /* NamedSignedInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedSignedInput.swift; sourceTree = "<group>"; };
 		EE941F312B81C86F00405F03 /* PasswordInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInput.swift; sourceTree = "<group>"; };
 		EE941F332B81C89700405F03 /* EmailInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailInput.swift; sourceTree = "<group>"; };
@@ -161,15 +167,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		75688E072B6F0AC3002ABACD /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */,
-				75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */,
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
 		085C185B2B704E4B006453ED /* CodeSMSFeature */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +193,15 @@
 				085C186C2B709E7B006453ED /* TextFieldDigitTableViewCell.xib */,
 			);
 			path = TextFieldDemo;
+			sourceTree = "<group>";
+		};
+		75688E072B6F0AC3002ABACD /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				75688E082B6F0AF9002ABACD /* RegisterPhoneViewController.swift */,
+				75688E092B6F0AF9002ABACD /* RegisterPhoneViewController.xib */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 		8783A1AF2B54AC330056AB6A = {
@@ -232,6 +238,8 @@
 				75688E072B6F0AC3002ABACD /* Register */,
 				085C185B2B704E4B006453ED /* CodeSMSFeature */,
 				87D65D742B672C420056FA28 /* Home */,
+				EE3B417B2BA7B827000881C2 /* PaymentViewController.swift */,
+				EE3B417C2BA7B827000881C2 /* PaymentViewController.xib */,
 			);
 			path = LogInFeature;
 			sourceTree = "<group>";
@@ -437,6 +445,7 @@
 				87D65D902B6736050056FA28 /* BodyLabelTableViewCell.xib in Resources */,
 				87D65D712B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */,
 				87D65D842B67357E0056FA28 /* LabelsDemoTableViewController.xib in Resources */,
+				EE3B417F2BA7B827000881C2 /* PaymentViewController.xib in Resources */,
 				870F30702B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */,
 				87D65D8A2B6735BD0056FA28 /* TitleLabelTableViewCell.xib in Resources */,
 				085C18722B70A16C006453ED /* DemoTextFieldsTableViewController.xib in Resources */,
@@ -462,6 +471,7 @@
 				87D65D912B6736050056FA28 /* BodyLabelTableViewCell.xib in Resources */,
 				87D65D722B67292C0056FA28 /* SecondaryButtonTableViewCell.xib in Resources */,
 				87D65D852B67357E0056FA28 /* LabelsDemoTableViewController.xib in Resources */,
+				EE3B41802BA7B827000881C2 /* PaymentViewController.xib in Resources */,
 				870F30712B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib in Resources */,
 				87D65D8B2B6735BD0056FA28 /* TitleLabelTableViewCell.xib in Resources */,
 				87E384EF2B5DFE080096E037 /* DemoButtonsTableViewController.xib in Resources */,
@@ -505,6 +515,7 @@
 				75688E0A2B6F0AF9002ABACD /* RegisterPhoneViewController.swift in Sources */,
 				870F306E2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */,
 				EE941F302B81B92900405F03 /* NamedSignedInput.swift in Sources */,
+				EE3B417D2BA7B827000881C2 /* PaymentViewController.swift in Sources */,
 				085C18712B70A16C006453ED /* DemoTextFieldsTableViewController.swift in Sources */,
 				8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */,
 				87E384E72B5DFD310096E037 /* ButtonTableViewCell.swift in Sources */,
@@ -538,6 +549,7 @@
 				870F306F2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */,
 				87E384E92B5DFDE40096E037 /* DemoButtonsTableViewController.swift in Sources */,
 				EE941F352B81C89700405F03 /* EmailInput.swift in Sources */,
+				EE3B417E2BA7B827000881C2 /* PaymentViewController.swift in Sources */,
 				87E384EB2B5DFDED0096E037 /* ButtonTableViewCell.swift in Sources */,
 				085C185F2B704FE4006453ED /* CodeViewController.swift in Sources */,
 				87E384BC2B5DED480096E037 /* SceneDelegate.swift in Sources */,

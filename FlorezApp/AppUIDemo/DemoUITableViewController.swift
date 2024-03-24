@@ -34,6 +34,7 @@ enum DemoView {
     case registerPhoneScreenViewController
     case additionalInfoSignInViewController
     case codeViewController
+    case paymentViewController
     
     
     /// FeedFeature
@@ -57,6 +58,8 @@ enum DemoView {
             return "AdditionalInfoSignInViewController"
         case .codeViewController:
             return "CodeViewController"
+        case .paymentViewController:
+            return "PaymentViewController"
         }
     }
     
@@ -76,6 +79,8 @@ enum DemoView {
             return AdditionalInfoSignInViewController()
         case .codeViewController:
             return CodeViewController()
+        case .paymentViewController:
+            return PaymentViewController()
         }
     }
     
@@ -94,6 +99,8 @@ enum DemoView {
         case .registerPhoneScreenViewController:
             return ""
         case .additionalInfoSignInViewController:
+            return ""
+        case .paymentViewController:
             return ""
         }
     }
@@ -125,7 +132,8 @@ class DemoUITableViewController: UITableViewController {
                 .homeScreenViewController,
                 .registerPhoneScreenViewController,
                 .additionalInfoSignInViewController,
-                .codeViewController
+                .codeViewController,
+                .paymentViewController
              ]
             )
         )

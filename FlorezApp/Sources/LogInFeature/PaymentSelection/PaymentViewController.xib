@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentViewController" customModule="Demo_UI" customModuleProvider="target">
+            <connections>
+                <outlet property="creditCardUI" destination="42p-GD-rhl" id="dug-dd-1RX"/>
+                <outlet property="paypalCardUI" destination="7ac-mS-vuP" id="6TR-fX-1uD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X8z-HZ-fUs">
+                    <rect key="frame" x="-12" y="67" width="417" height="743"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mzr-2Y-lz6">
+                            <rect key="frame" x="6" y="8" width="405" height="130"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Método de pago" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Cq-PA-Sfy" customClass="CustomLabel" customModule="Demo_UI" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="405" height="102.66666666666667"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                            <integer key="value" value="0"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona el método de pago que prefieras" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="tN4-Sy-2Rx" customClass="CustomLabel" customModule="Demo_UI" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="110.66666666666667" width="405" height="19.333333333333329"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="42p-GD-rhl">
+                            <rect key="frame" x="20" y="168" width="377" height="47"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditcard.and.123" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qEn-vk-MUo">
+                                    <rect key="frame" x="10" y="8" width="35.666666666666671" height="33"/>
+                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="35" id="2pv-9H-838"/>
+                                        <constraint firstAttribute="height" constant="35" id="H0O-cx-sBa"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tarjeta de crédito / débito" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyV-kn-BOD">
+                                    <rect key="frame" x="55.000000000000014" y="13.333333333333341" width="194.33333333333337" height="20.333333333333329"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ifB-VZ-fH1">
+                                    <rect key="frame" x="354.33333333333331" y="15.333333333333337" width="12.666666666666686" height="16.666666666666671"/>
+                                    <color key="tintColor" name="DSPrimary"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="qEn-vk-MUo" firstAttribute="top" secondItem="42p-GD-rhl" secondAttribute="top" constant="6" id="N6D-Hf-20m"/>
+                                <constraint firstItem="qEn-vk-MUo" firstAttribute="centerY" secondItem="42p-GD-rhl" secondAttribute="centerY" id="O1f-b8-maV"/>
+                                <constraint firstAttribute="trailing" secondItem="ifB-VZ-fH1" secondAttribute="trailing" constant="10" id="SIn-xC-Hpn"/>
+                                <constraint firstItem="qEn-vk-MUo" firstAttribute="leading" secondItem="42p-GD-rhl" secondAttribute="leading" constant="10" id="anI-oF-Ecd"/>
+                                <constraint firstItem="cyV-kn-BOD" firstAttribute="centerY" secondItem="42p-GD-rhl" secondAttribute="centerY" id="kcn-wm-94C"/>
+                                <constraint firstItem="cyV-kn-BOD" firstAttribute="leading" secondItem="qEn-vk-MUo" secondAttribute="trailing" constant="10" id="tZV-Gg-EMf"/>
+                                <constraint firstItem="ifB-VZ-fH1" firstAttribute="centerY" secondItem="42p-GD-rhl" secondAttribute="centerY" id="tci-n2-qeF"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ac-mS-vuP">
+                            <rect key="frame" x="20" y="235" width="377" height="47"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paypal" translatesAutoresizingMaskIntoConstraints="NO" id="vYx-gm-Uc7">
+                                    <rect key="frame" x="10" y="6" width="35" height="35"/>
+                                    <color key="tintColor" systemColor="systemRedColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="35" id="TPm-ZO-hTo"/>
+                                        <constraint firstAttribute="height" constant="35" id="VsL-nd-w4U"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cuenta de PayPal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pna-ht-Tgl">
+                                    <rect key="frame" x="55" y="13.333333333333313" width="133" height="20.333333333333329"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3Ou-Vq-1N7">
+                                    <rect key="frame" x="354.33333333333331" y="15.333333333333309" width="12.666666666666686" height="16.666666666666671"/>
+                                    <color key="tintColor" name="DSPrimary"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="3Ou-Vq-1N7" firstAttribute="centerY" secondItem="7ac-mS-vuP" secondAttribute="centerY" id="RL4-gf-Q9Z"/>
+                                <constraint firstAttribute="trailing" secondItem="3Ou-Vq-1N7" secondAttribute="trailing" constant="10" id="Z7F-vT-PLG"/>
+                                <constraint firstItem="vYx-gm-Uc7" firstAttribute="top" secondItem="7ac-mS-vuP" secondAttribute="top" constant="6" id="cQj-5v-Ru9"/>
+                                <constraint firstItem="vYx-gm-Uc7" firstAttribute="leading" secondItem="7ac-mS-vuP" secondAttribute="leading" constant="10" id="elc-ob-hKd"/>
+                                <constraint firstItem="pna-ht-Tgl" firstAttribute="leading" secondItem="vYx-gm-Uc7" secondAttribute="trailing" constant="10" id="k5h-nN-Nf6"/>
+                                <constraint firstItem="vYx-gm-Uc7" firstAttribute="centerY" secondItem="7ac-mS-vuP" secondAttribute="centerY" id="kJs-bM-jya"/>
+                                <constraint firstItem="pna-ht-Tgl" firstAttribute="centerY" secondItem="7ac-mS-vuP" secondAttribute="centerY" id="z16-hC-oEO"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVW-Rd-NiY" customClass="CustomButton" customModule="Demo_UI" customModuleProvider="target">
+                            <rect key="frame" x="105" y="332" width="207" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="r16-3W-thD"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Siguiente"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                    <integer key="value" value="0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="7ac-mS-vuP" secondAttribute="trailing" constant="20" id="17z-hI-rF5"/>
+                        <constraint firstItem="lVW-Rd-NiY" firstAttribute="top" secondItem="7ac-mS-vuP" secondAttribute="bottom" constant="50" id="9kC-jQ-Pk7"/>
+                        <constraint firstItem="7ac-mS-vuP" firstAttribute="leading" secondItem="X8z-HZ-fUs" secondAttribute="leading" constant="20" id="A1L-OZ-stL"/>
+                        <constraint firstAttribute="trailing" secondItem="42p-GD-rhl" secondAttribute="trailing" constant="20" id="AAw-hW-jse"/>
+                        <constraint firstItem="42p-GD-rhl" firstAttribute="top" secondItem="mzr-2Y-lz6" secondAttribute="bottom" constant="30" id="T7k-GZ-1R7"/>
+                        <constraint firstItem="lVW-Rd-NiY" firstAttribute="leading" secondItem="X8z-HZ-fUs" secondAttribute="leading" constant="105" id="XWB-Kc-DxG"/>
+                        <constraint firstAttribute="trailing" secondItem="mzr-2Y-lz6" secondAttribute="trailing" constant="6" id="YCb-E2-Vdf"/>
+                        <constraint firstItem="mzr-2Y-lz6" firstAttribute="leading" secondItem="X8z-HZ-fUs" secondAttribute="leading" constant="6" id="hcp-gv-1eD"/>
+                        <constraint firstAttribute="trailing" secondItem="lVW-Rd-NiY" secondAttribute="trailing" constant="105" id="jMT-FS-pKf"/>
+                        <constraint firstItem="7ac-mS-vuP" firstAttribute="top" secondItem="42p-GD-rhl" secondAttribute="bottom" constant="20" id="kHE-y7-6er"/>
+                        <constraint firstItem="42p-GD-rhl" firstAttribute="leading" secondItem="X8z-HZ-fUs" secondAttribute="leading" constant="20" id="lU6-1g-ZQw"/>
+                        <constraint firstItem="mzr-2Y-lz6" firstAttribute="top" secondItem="X8z-HZ-fUs" secondAttribute="top" constant="8" id="pql-z1-hn8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="X8z-HZ-fUs" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="1uH-VN-ugH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="X8z-HZ-fUs" secondAttribute="bottom" constant="8" id="3jd-zX-FX8"/>
+                <constraint firstItem="X8z-HZ-fUs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Tpe-hO-q2C"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <image name="creditcard.and.123" catalog="system" width="128" height="96"/>
+        <image name="paypal" width="225" height="225"/>
+        <namedColor name="DSPrimary">
+            <color red="0.88599997758865356" green="0.2370000034570694" blue="0.35899999737739563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
