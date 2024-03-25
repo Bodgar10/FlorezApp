@@ -11,6 +11,8 @@ class AdditionalInfoSignInViewController: MainViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
     
+    var viewModel: AdditionalInfoViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         nameTextField.delegate = self

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+final class AdditionalInfoViewModel {
+    var uid: String?
+    
+    init(uid: String? = nil) {
+        self.uid = uid
+    }
+}

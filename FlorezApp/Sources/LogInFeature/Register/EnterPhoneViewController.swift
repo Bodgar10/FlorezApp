@@ -21,12 +21,16 @@ class EnterPhoneViewController: MainViewController {
     }
     
     @IBAction func nextButtonPressed(_ sender: UIButton) {
+        showActivityIndicator()
         viewModel.verifyPhone(with: phoneNumberTextField.text)
     }
     
     private func errorBinding() {
         viewModel.completion = { error in
-            self.showAlert(title: "Error", message: error.localizedDescription)
+            self.hideActivityIndicator()
+            if let error {
+                self.showAlert(title: "Error", message: error.localizedDescription)
+            }
         }
     }
 }

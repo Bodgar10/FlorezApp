@@ -52,7 +52,6 @@
                                         </label>
                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Peter" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="akZ-N2-Oxw" customClass="NamedSignedInput" customModule="FlorezApp">
                                             <rect key="frame" x="0.0" y="20.333333333333325" width="182.66666666666666" height="38.666666666666657"/>
-                                            <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>

@@ -18,11 +18,11 @@ final class CodeViewModel {
         self.verificationID = verificationID
     }
     
-    var completion: ((Error) -> Void)?
+    var completion: ((Error?) -> Void)?
     var completionSuccess: (() -> Void)?
     
     func verifyPhone(with phone: String?) {
-        guard let phone, hasValidLenght(phone: phone) else { return }
+        guard let phone, hasValidLenght(value: phone, with: 10, andErrorMessage: "teléfono") else { return }
         let phoneNumber = "+52\(phone)"
         PhoneAuthProvider.provider().verifyPhoneNumber(phoneNumber, uiDelegate: nil) { verificationID, error in
             if let error = error {
@@ -34,13 +34,31 @@ final class CodeViewModel {
         }
     }
     
-    private func hasValidLenght(phone: String) -> Bool {
-        if phone.isEmpty {
-            let error = NSError(domain: "", code: -199, userInfo: [NSLocalizedDescriptionKey: "Escribe un número de teléfono válido."])
+    func signIn(verificationCode: String) {
+        guard hasValidLenght(value: verificationCode, with: 6, andErrorMessage: "código"), 
+                let verificationID else { return }
+        let credential = PhoneAuthProvider.provider().credential(
+            withVerificationID: verificationID,
+            verificationCode: verificationCode)
+        Auth.auth().signIn(with: credential) { result, error in
+            if let error {
+                self.completion?(error)
+            } else {
+                self.completion?(nil)
+                let additionalInfoVC = AdditionalInfoSignInViewController()
+                additionalInfoVC.viewModel = AdditionalInfoViewModel(uid: result?.user.uid)
+                self.navigation?.pushViewController(additionalInfoVC, animated: true)
+            }
+        }
+    }
+    
+    private func hasValidLenght(value: String, with lenght: Int, andErrorMessage: String) -> Bool {
+        if value.isEmpty {
+            let error = NSError(domain: "", code: -199, userInfo: [NSLocalizedDescriptionKey: "Escribe un \(andErrorMessage) válido."])
             completion?(error)
             return false
-        } else if phone.count < 10 || phone.count > 10 {
-            let error = NSError(domain: "", code: -199, userInfo: [NSLocalizedDescriptionKey: "El teléfono debe contener 10 números."])
+        } else if value.count < lenght || value.count > lenght {
+            let error = NSError(domain: "", code: -199, userInfo: [NSLocalizedDescriptionKey: "El \(andErrorMessage) debe contener \(lenght) números."])
             completion?(error)
             return false
         }

@@ -9,6 +9,8 @@ import UIKit
 
 class MainViewController: UIViewController {
     
+    let activityView = UIActivityIndicatorView(style: .large)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
@@ -25,5 +27,18 @@ class MainViewController: UIViewController {
         alert.addAction(action)
         self.present(alert, animated: true)
     }
+    
+    func showActivityIndicator() {
+        activityView.center = self.view.center
+        activityView.color = UIColor.dsPrimary
+        view.addSubview(activityView)
+        activityView.startAnimating()
+    }
+    
+    func hideActivityIndicator() {
+        activityView.stopAnimating()
+    }
+    
+    
     
 }

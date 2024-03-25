@@ -86,6 +86,8 @@
 		878501E02B82E0C60011DD4F /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 878501DF2B82E0C60011DD4F /* FirebaseRemoteConfigSwift */; };
 		878501E22B82E0C60011DD4F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 878501E12B82E0C60011DD4F /* FirebaseStorage */; };
 		878501E42B82E0C60011DD4F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 878501E32B82E0C60011DD4F /* FirebaseStorageCombine-Community */; };
+		878829A12BB107F5006417BA /* AdditionalInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878829A02BB107F5006417BA /* AdditionalInfoViewModel.swift */; };
+		878829A22BB107F5006417BA /* AdditionalInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878829A02BB107F5006417BA /* AdditionalInfoViewModel.swift */; };
 		87A994432BA7CE4700B002DF /* CodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A994422BA7CE4700B002DF /* CodeViewModel.swift */; };
 		87A994442BA7CE4700B002DF /* CodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A994422BA7CE4700B002DF /* CodeViewModel.swift */; };
 		87C04DE72B95517C00005EBE /* PhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C04DE62B95517C00005EBE /* PhoneViewModel.swift */; };
@@ -170,6 +172,7 @@
 		878501762B82DBCB0011DD4F /* EnterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneViewController.swift; sourceTree = "<group>"; };
 		878501772B82DBCB0011DD4F /* EnterPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterPhoneViewController.xib; sourceTree = "<group>"; };
 		8785017C2B82DEBE0011DD4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		878829A02BB107F5006417BA /* AdditionalInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoViewModel.swift; sourceTree = "<group>"; };
 		87A994422BA7CE4700B002DF /* CodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewModel.swift; sourceTree = "<group>"; };
 		87C04DE62B95517C00005EBE /* PhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewModel.swift; sourceTree = "<group>"; };
 		87C04DEA2B9552D200005EBE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -479,6 +482,7 @@
 			children = (
 				870F306C2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift */,
 				870F306D2B799F1200B98BA5 /* AdditionalInfoSignInViewController.xib */,
+				878829A02BB107F5006417BA /* AdditionalInfoViewModel.swift */,
 			);
 			path = AditionalInformation;
 			sourceTree = "<group>";
@@ -691,6 +695,7 @@
 				085C18712B70A16C006453ED /* DemoTextFieldsTableViewController.swift in Sources */,
 				8783A1BC2B54AC330056AB6A /* AppDelegate.swift in Sources */,
 				87E384E72B5DFD310096E037 /* ButtonTableViewCell.swift in Sources */,
+				878829A12BB107F5006417BA /* AdditionalInfoViewModel.swift in Sources */,
 				878501782B82DBCB0011DD4F /* EnterPhoneViewController.swift in Sources */,
 				EE941F322B81C86F00405F03 /* PasswordInput.swift in Sources */,
 				085C185E2B704FE4006453ED /* CodeViewController.swift in Sources */,
@@ -719,6 +724,7 @@
 				085C18652B7056D6006453ED /* CustomTextField.swift in Sources */,
 				87D65D782B672C560056FA28 /* HomeScreenViewController.swift in Sources */,
 				87D65D702B67292C0056FA28 /* SecondaryButtonTableViewCell.swift in Sources */,
+				878829A22BB107F5006417BA /* AdditionalInfoViewModel.swift in Sources */,
 				87D65D8F2B6736050056FA28 /* BodyLabelTableViewCell.swift in Sources */,
 				870F306F2B799F1200B98BA5 /* AdditionalInfoSignInViewController.swift in Sources */,
 				87E384E92B5DFDE40096E037 /* DemoButtonsTableViewController.swift in Sources */,

@@ -30,15 +30,16 @@ final class PhoneViewModel: PhoneProtocol {
         self.navigation = navigation
     }
     
-    var completion: ((Error) -> Void)?
+    var completion: ((Error?) -> Void)?
     
     func verifyPhone(with phone: String?) {
         guard let phone, hasValidLenght(phone: phone) else { return }
         let phoneNumber = "+52\(phone)"
         PhoneAuthProvider.provider().verifyPhoneNumber(phoneNumber, uiDelegate: nil) { verificationID, error in
-            if let error = error {
+            if let error {
                 self.completion?(error)
             } else {
+                self.completion?(nil)
                 let viewController = CodeViewController()
                 viewController.viewModel = CodeViewModel(navigation: self.navigation, verificationID: verificationID)
                 viewController.phone = phone

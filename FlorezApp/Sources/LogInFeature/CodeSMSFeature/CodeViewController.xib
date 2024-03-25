@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,6 +15,7 @@
                 <outlet property="fourthDigit" destination="7T6-Aw-9Av" id="XLu-T7-c2X"/>
                 <outlet property="numberSms" destination="bHm-wn-dl7" id="FFj-y7-nqs"/>
                 <outlet property="secondDigit" destination="4Kd-Yy-ggp" id="ukw-h1-MXb"/>
+                <outlet property="sixthDigit" destination="Moq-BO-SYC" id="CFy-f9-Rzh"/>
                 <outlet property="thirdDigit" destination="OAb-Wd-kQa" id="nhe-qk-hXM"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -89,7 +90,7 @@
                     <rect key="frame" x="30" y="151.33333333333334" width="333" height="40"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jye-p4-yto" customClass="CustomTextField" customModule="Demo_UI" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="40"/>
+                            <rect key="frame" x="0.0" y="0.0" width="39" height="40"/>
                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                             <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             <userDefinedRuntimeAttributes>
@@ -99,7 +100,7 @@
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Kd-Yy-ggp" customClass="CustomTextField" customModule="Demo_UI" customModuleProvider="target">
-                            <rect key="frame" x="70.666666666666671" y="0.0" width="50.666666666666671" height="40"/>
+                            <rect key="frame" x="59" y="0.0" width="38.666666666666657" height="40"/>
                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                             <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             <userDefinedRuntimeAttributes>
@@ -109,7 +110,7 @@
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OAb-Wd-kQa" customClass="CustomTextField" customModule="Demo_UI" customModuleProvider="target">
-                            <rect key="frame" x="141.33333333333334" y="0.0" width="50.333333333333343" height="40"/>
+                            <rect key="frame" x="117.66666666666666" y="0.0" width="39" height="40"/>
                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                             <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             <userDefinedRuntimeAttributes>
@@ -119,7 +120,7 @@
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7T6-Aw-9Av" customClass="CustomTextField" customModule="Demo_UI" customModuleProvider="target">
-                            <rect key="frame" x="211.66666666666666" y="0.0" width="50.666666666666657" height="40"/>
+                            <rect key="frame" x="176.66666666666666" y="0.0" width="38.666666666666657" height="40"/>
                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                             <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             <userDefinedRuntimeAttributes>
@@ -129,7 +130,17 @@
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5kI-nI-Nkj" customClass="CustomTextField" customModule="Demo_UI" customModuleProvider="target">
-                            <rect key="frame" x="282.33333333333331" y="0.0" width="50.666666666666686" height="40"/>
+                            <rect key="frame" x="235.33333333333331" y="0.0" width="39" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                    <integer key="value" value="0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Moq-BO-SYC" customClass="CustomTextField" customModule="Demo_UI" customModuleProvider="target">
+                            <rect key="frame" x="294.33333333333331" y="0.0" width="38.666666666666686" height="40"/>
                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                             <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             <userDefinedRuntimeAttributes>
